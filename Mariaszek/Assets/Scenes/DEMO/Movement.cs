@@ -1,91 +1,43 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
-[RequireComponent(typeof(Rigidbody))]
-public class Movement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    Rigidbody rb;
-    SpriteRenderer sr;
-    Animator anim;
+    public float moveSpeed = 5f;
+    public DialogueRunner dialogueRunner;
+    private bool isPlayerNearby = false;
 
-    public float upForce = 100;
-    public float speed = 1500;
-    public float runSpeed = 2500;
-
-    public bool isGrounded = false;
-    bool isLeftShift;
-    float moveHorizontal;
-    float moveVertical;
-
-    void Start()
+    private void Update()
     {
-        rb = GetComponent<Rigidbody>();
-        sr = GetComponentInChildren<SpriteRenderer>();
-        anim = GetComponentInChildren<Animator>();
+        MovePlayer();
+
+        if (Input.GetKeyDown(KeyCode.E) && isPlayerNearby)
+        {
+            dialogueRunner.StartDialogue("char1");
+        }
     }
-    void Update()
+
+    private void MovePlayer()
     {
-        isLeftShift = Input.GetKey(KeyCode.LeftShift);
-        //Input.GetAxis("Vertical");
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical = Input.GetAxis ("Vertical");
-
-        if (moveHorizontal > 0)
-        {
-            sr.flipX = false;
-        }
-        else if(moveHorizontal < 0)
-        {
-            sr.flipX = true;
-        }
-
-        if (moveHorizontal == 0)
-        {
-            anim.SetBool("IsRunning", false);
-        }
-        else
-        {
-            anim.SetBool("IsRunning", true);
-        }
-
-
-        if (isGrounded)
-        {
-            anim.SetBool("IsJumping", false);
-        }
-        else
-        {
-            anim.SetBool("IsJumping", true);
-        }
-
-        //jump
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(Vector3.up * upForce);
-            isGrounded = false;
-        }
-
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        transform.Translate(movement * moveSpeed * Time.deltaTime, Space.World);
     }
 
-
-    private void FixedUpdate()
-     
+    private void OnTriggerEnter(Collider other)
     {
-        
-        float currentSpeed = isLeftShift ? runSpeed : speed;
-
-       
-        rb.velocity = new Vector3(moveHorizontal * currentSpeed * Time.deltaTime, rb.velocity.y, moveVertical * currentSpeed * Time.deltaTime);
+        if (other.CompareTag("Player"))
+        {
+            isPlayerNearby = true;
+        }
     }
 
-
-
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        isGrounded = true;
+        if (other.CompareTag("Player"))
+        {
+            isPlayerNearby = false;
+        }
     }
-    }
-
+}
