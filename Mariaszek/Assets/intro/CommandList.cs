@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
 
-
+public class CommandList : MonoBehaviour
+{
 
 public class FadeCamera {
 
@@ -41,7 +42,15 @@ public class changeBckg {
     [YarnCommand("change_background_1")]
     public static void background1() 
     {
-    Debug.Log("changed to sprite1");
+       if (SpriteChanger.Instance != null)
+            {
+                SpriteChanger.Instance.ChangeToNextSprite();
+            }
+            else
+            {
+                Debug.LogWarning("SpriteChanger instance is not set!");
+            }
     }
     
+}
 }
