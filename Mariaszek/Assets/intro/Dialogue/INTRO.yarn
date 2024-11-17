@@ -1,0 +1,34 @@
+﻿title: Start
+tags:
+---
+WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDENLY, THE CAMERA SHAKES. 
+<<play_music>>
+<<wait 5>>
+<<shake_camera>>
+<<wait 2>>
+Fran: Oh crap! What was that?
+Ehir: It shook like hell itself. 
+Nika: Did we hit something?
+Labuda: I don't know. I think we have to pull over and check. 
+Nika: Is there any gas station nearby?
+Ehir: This looks like an empty highway, so small chances.
+Ehir: But there should be a village nearby, my map is showing that!
+Labuda: Guess that's our only chance. 
+<<jump WiesDroga>>
+<<fade_camera>>
+===
+
+title: WiesDroga
+tags:
+---
+<<change_background_1>>
+<<wait 3>>
+Nika: This place looks so old. Do you see anybody?
+Ehir: HEEEEEY!!!! ANYBODY HERE????
+Labuda: My gosh, will you be quiet? Where did you even come from?
+Ehir: Oh sorry, let me whisper to them and hope they miraculously come out of their houses. Everybody is probably busy feeding chickens here. Look at this place, bet they barely got wifi access. 
+Fran: Hey, I think I see a person.
+<<wait 2>>
+Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
+Old person: This ain't a town, child. That's a village.
+===
