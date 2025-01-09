@@ -18,6 +18,7 @@ public class CameraShake : MonoBehaviour
         // Singleton setup (optional)
         if (Instance == null)
         {
+            Debug.Log("Shake init");
             Instance = this;
         }
         else
@@ -55,10 +56,8 @@ public class CameraShake : MonoBehaviour
     /// </summary>
     /// <param name="duration">Duration of the shake.</param>
     /// <param name="magnitude">Magnitude of the shake.</param>
-    public void TriggerShake(float duration, float magnitude)
+    public void TriggerShake()
     {
-        shakeDuration = duration;
-        shakeMagnitude = magnitude;
         currentShakeDuration = shakeDuration;
     }
 }

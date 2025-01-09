@@ -13,6 +13,7 @@ A VISUAL NOVEL EXAMPLE
 
 // adds actor named "Eve" using sprite "cool-girl", placed in left-half + center of screen, with green text label
 <<Act Eve cool-girl left center green>>
+<<shake_camera>>
 
 Eve: Finally, a quiet day at the office. Maybe I'll be able to get some work done.
 

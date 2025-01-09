@@ -21,9 +21,10 @@ public class ShakeCamera {
     [YarnCommand("shake_camera")]
     public static void shake() 
     {
-        CameraShake.Instance.TriggerShake(0.5f, 0.3f);
+        CameraShake.Instance.TriggerShake();
+            Debug.Log("Shake camera!");
 
-    }
+        }
 }
 
 

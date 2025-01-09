@@ -68,7 +68,7 @@ namespace Yarn.Unity.Example {
 
             runner.AddCommandHandler<string,float,float,float>("Fade", SetFade );
 			runner.AddCommandHandler<float>("FadeIn", SetFadeIn );
-			runner.AddCommandHandler<string,string,float>("CamOffset", SetCameraOffset );
+			//runner.AddCommandHandler<string,string,float>("CamOffset", SetCameraOffset );
 
 			// adds all Resources to internal lists / one big pile... it
 			// will scan inside all subfolders too! note: but when
