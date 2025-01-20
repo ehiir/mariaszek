@@ -32,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
         MyInput();
         SpeedControl();
 
-        // handle drag
         rb.drag = groundDrag;
 
         // if (Input.GetKey(KeyCode.W))
@@ -75,7 +74,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        // calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
@@ -85,7 +83,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-        // limit velocity if needed
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;

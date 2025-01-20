@@ -323,7 +323,7 @@ GameObject:
   - component: {fileID: 833718171}
   - component: {fileID: 833718173}
   m_Layer: 0
-  m_Name: background
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -804,5 +804,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 528327899}
   - {fileID: 1335593225}
-  - {fileID: 1672885452}
   - {fileID: 833718172}
+  - {fileID: 1672885452}

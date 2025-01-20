@@ -5,53 +5,57 @@ using Yarn.Unity;
 
 public class CommandList : MonoBehaviour
 {
-
-public class FadeCamera {
-
-    [YarnCommand("fade_camera")]
-    public static void Fade() 
+    public class FadeCamera
     {
-        Debug.Log("Fading the camera!");
-    }
-}
+        [YarnCommand("fade_camera")]
 
-
-public class ShakeCamera {
-
-    [YarnCommand("shake_camera")]
-    public static void shake() 
-    {
-        CameraShake.Instance.TriggerShake();
-            Debug.Log("Shake camera!");
-
+        public static void Fade() 
+        {
+            Debug.Log("Fading the camera!");
         }
-}
-
-
-public class playMusic {
-
-    [YarnCommand("play_music")]
-    public static void music() 
-    {
-        Debug.Log("Playing Music");
     }
-}
 
 
-public class changeBckg {
-
-    [YarnCommand("change_background_1")]
-    public static void background1() 
+    public class ShakeCamera
     {
-       if (SpriteChanger.Instance != null)
+        [YarnCommand("shake_camera")]
+
+        public static void shake() 
+        {
+            CameraShake.Instance.TriggerShake();
+
+            Debug.Log("Shake camera!");
+        }
+    }
+
+
+    public class playMusic
+    {
+        [YarnCommand("play_music")]
+
+        public static void music() 
+        {
+            Debug.Log("Playing Music");
+        }
+    }
+
+
+    public class changeBckg
+    {
+
+        [YarnCommand("change_background_1")]
+
+        public static void background1() 
+        {
+        if (SpriteChanger.Instance != null)
             {
                 SpriteChanger.Instance.ChangeToNextSprite();
             }
+            
             else
             {
                 Debug.LogWarning("SpriteChanger instance is not set!");
             }
+        }  
     }
-    
-}
 }
