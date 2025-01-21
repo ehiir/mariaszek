@@ -6,13 +6,16 @@ WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDE
 <<wait 5>>
 <<shake_camera>>
 <<wait 2>>
+<<fran1 Fran>>
 Fran: Oh crap! What was that?
 Ehir: It shook like hell itself. 
 Nika: Did we hit something?
+<<labuda1 Labuda>>
 Labuda: I don't know. I think we have to pull over and check. 
 Nika: Is there any gas station nearby?
 Ehir: This looks like an empty highway, so small chances.
 Ehir: But there should be a village nearby, my map is showing that!
+<<labuda2 Labuda>>
 Labuda: Guess that's our only chance. 
 <<jump WiesDroga>>
 <<fade_camera>>

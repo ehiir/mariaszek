@@ -11,14 +11,12 @@ public class FranSprites : MonoBehaviour
     [YarnCommand("fran1")]
     public void ChangeSprite()
     {
-    
         sr.sprite = spriteArray[0];
     }
 
     [YarnCommand("fran2")]
     public void ChangeSprite1()
     {
-    
         sr.sprite = spriteArray[1];
     }
 }
