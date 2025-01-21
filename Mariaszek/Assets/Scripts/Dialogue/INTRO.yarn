@@ -20,6 +20,7 @@ Labuda: Guess that's our only chance.
 
 title: WiesDroga
 tags:
+position: 60,222
 ---
 <<change_background_1>>
 <<wait 3>>
