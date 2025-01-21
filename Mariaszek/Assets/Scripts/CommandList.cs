@@ -42,7 +42,6 @@ public class CommandList : MonoBehaviour
 
     public class changeBckg
     {
-
         [YarnCommand("change_background_1")]
 
         public static void background1() 
