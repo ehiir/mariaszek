@@ -6,17 +6,22 @@ WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDE
 <<wait 5>>
 <<shake_camera>>
 <<wait 2>>
-<<fran1 Fran>>
+<<fran2 PCS>>
 Fran: Oh crap! What was that?
+<<ehir1 PCS>>
 Ehir: It shook like hell itself. 
+<<nika1 PCS>>
 Nika: Did we hit something?
-<<labuda1 Labuda>>
+<<labuda1 PCS>>
 Labuda: I don't know. I think we have to pull over and check. 
+<<nika2 PCS>>
 Nika: Is there any gas station nearby?
+<<ehir1 PCS>>
 Ehir: This looks like an empty highway, so small chances.
 Ehir: But there should be a village nearby, my map is showing that!
-<<labuda2 Labuda>>
+<<labuda2 PCS>>
 Labuda: Guess that's our only chance. 
+<<blank PCS>>
 <<jump WiesDroga>>
 <<fade_camera>>
 ===
@@ -27,12 +32,20 @@ position: 60,222
 ---
 <<change_background_1>>
 <<wait 3>>
+<<nika1 PCS>>
 Nika: This place looks so old. Do you see anybody?
+<<ehir2 PCS>>
 Ehir: HEEEEEY!!!! ANYBODY HERE????
+<<labuda1 PCS>>
 Labuda: My gosh, will you be quiet? Where did you even come from?
+<<ehir1 PCS>>
 Ehir: Oh sorry, let me whisper to them and hope they miraculously come out of their houses. Everybody is probably busy feeding chickens here. Look at this place, bet they barely got wifi access. 
+<<fran1 PCS>>
 Fran: Hey, I think I see a person.
+<<blank PCS>>
 <<wait 2>>
+<<ehir2 PCS>>
 Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
+<<old1 NPCS>>
 Old person: This ain't a town, child. That's a village.
 ===

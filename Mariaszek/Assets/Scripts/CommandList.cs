@@ -23,13 +23,11 @@ public class CommandList : MonoBehaviour
         public static void shake() 
         {
             CameraShake.Instance.TriggerShake();
-
-            Debug.Log("Shake camera!");
         }
     }
 
 
-    public class playMusic
+    public class PlayMusic
     {
         [YarnCommand("play_music")]
 
@@ -40,13 +38,13 @@ public class CommandList : MonoBehaviour
     }
 
 
-    public class changeBckg
+    public class ChangeBG
     {
         [YarnCommand("change_background_1")]
 
         public static void background1() 
         {
-        if (SpriteChanger.Instance != null)
+            if (SpriteChanger.Instance != null)
             {
                 SpriteChanger.Instance.ChangeToNextSprite();
             }
