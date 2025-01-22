@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Yarn.Unity;
 
 public class CommandList : MonoBehaviour
@@ -16,7 +17,6 @@ public class CommandList : MonoBehaviour
         }
     }
 
-
     public class ShakeCamera
     {
         [YarnCommand("shake_camera")]
@@ -27,7 +27,6 @@ public class CommandList : MonoBehaviour
         }
     }
 
-
     public class PlayMusic
     {
         [YarnCommand("play_music")]
@@ -37,7 +36,6 @@ public class CommandList : MonoBehaviour
             Debug.Log("Playing Music");
         }
     }
-
 
     public class ChangeBG
     {
@@ -55,5 +53,35 @@ public class CommandList : MonoBehaviour
                 Debug.LogWarning("SpriteChanger instance is not set!");
             }
         }  
+    }
+
+    public class LoadScene
+    {
+        [YarnCommand("load_scene")]
+
+        public static void Scene()
+        {
+            SceneManager.LoadScene("DEMO");
+        }
+    }
+
+    public class FreezeTime
+    {
+        [YarnCommand("freeze_time")]
+
+        public static void Pause()
+        {
+            Time.timeScale = 0f;
+        }
+    }
+
+    public class DefrostTime
+    {
+        [YarnCommand("defrost_time")]
+
+        public static void Play()
+        {
+            Time.timeScale = 1f;
+        }
     }
 }

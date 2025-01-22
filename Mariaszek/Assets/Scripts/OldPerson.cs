@@ -20,7 +20,7 @@ public class OldPerson : MonoBehaviour
         sr.sprite = spriteArray[1];
     }
 
-    [YarnCommand("blank")]
+    [YarnCommand("Old_blank")]
     public void ChangeSprite2()
     {
         sr.sprite = spriteArray[2];

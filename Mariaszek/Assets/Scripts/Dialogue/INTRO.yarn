@@ -1,7 +1,6 @@
 ﻿title: Start
 tags:
 ---
-<<fade_camera>>
 WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDENLY, THE CAMERA SHAKES. 
 <<play_music>>
 <<wait 5>>
@@ -22,7 +21,7 @@ Ehir: This looks like an empty highway, so small chances.
 Ehir: But there should be a village nearby, my map is showing that!
 <<labuda2 PCS>>
 Labuda: Guess that's our only chance. 
-<<blank PCS>>
+<<PC_blank PCS>>
 <<fade_camera>>
 <<jump WiesDroga>>
 ===
@@ -31,8 +30,8 @@ title: WiesDroga
 tags:
 position: 60,222
 ---
-<<change_background_1>>
 <<wait 3>>
+<<change_background_1>>
 <<fade_camera>>
 <<nika1 PCS>>
 Nika: This place looks so old. Do you see anybody?
@@ -44,10 +43,11 @@ Labuda: My gosh, will you be quiet? Where did you even come from?
 Ehir: Oh sorry, let me whisper to them and hope they miraculously come out of their houses. Everybody is probably busy feeding chickens here. Look at this place, bet they barely got wifi access. 
 <<fran1 PCS>>
 Fran: Hey, I think I see a person.
-<<blank PCS>>
+<<PC_blank PCS>>
 <<wait 2>>
 <<ehir2 PCS>>
 Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
 <<old1 NPCS>>
 Old person: This ain't a town, child. That's a village.
+<<load_scene>>
 ===

@@ -56,7 +56,7 @@ public class MainCharacters : MonoBehaviour
         sr.sprite = spriteArray[7];
     }
 
-    [YarnCommand("blank")]
+    [YarnCommand("PC_blank")]
     public void ChangeSprite8()
     {
         sr.sprite = spriteArray[8];

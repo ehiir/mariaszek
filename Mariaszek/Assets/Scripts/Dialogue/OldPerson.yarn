@@ -1,0 +1,16 @@
+﻿title: OldPerson
+tags:
+---
+<<fran2 PCS>>
+Fran: Wow, you are an old person.
+<<PC_blank PCS>>
+<<old1 NPCS>>
+Old person: I am indeed, young person.
+<<old2 NPCS>>
+Old person: Also, that was rude.
+<<Old_blank NPCS>>
+<<fran1 PCS>>
+-> Nah.
+-> Yes it was, sorry.
+-> Fuck you.
+===
