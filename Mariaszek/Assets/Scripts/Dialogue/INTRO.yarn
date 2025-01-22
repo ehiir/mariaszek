@@ -1,6 +1,7 @@
 ﻿title: Start
 tags:
 ---
+<<fade_camera>>
 WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDENLY, THE CAMERA SHAKES. 
 <<play_music>>
 <<wait 5>>
@@ -22,8 +23,8 @@ Ehir: But there should be a village nearby, my map is showing that!
 <<labuda2 PCS>>
 Labuda: Guess that's our only chance. 
 <<blank PCS>>
-<<jump WiesDroga>>
 <<fade_camera>>
+<<jump WiesDroga>>
 ===
 
 title: WiesDroga
@@ -32,6 +33,7 @@ position: 60,222
 ---
 <<change_background_1>>
 <<wait 3>>
+<<fade_camera>>
 <<nika1 PCS>>
 Nika: This place looks so old. Do you see anybody?
 <<ehir2 PCS>>

@@ -12,6 +12,7 @@ public class CommandList : MonoBehaviour
         public static void Fade() 
         {
             Debug.Log("Fading the camera!");
+            CameraFade.Instance.TriggerFade(); 
         }
     }
 
@@ -20,7 +21,7 @@ public class CommandList : MonoBehaviour
     {
         [YarnCommand("shake_camera")]
 
-        public static void shake() 
+        public static void Shake() 
         {
             CameraShake.Instance.TriggerShake();
         }
@@ -31,7 +32,7 @@ public class CommandList : MonoBehaviour
     {
         [YarnCommand("play_music")]
 
-        public static void music() 
+        public static void Music() 
         {
             Debug.Log("Playing Music");
         }
@@ -42,7 +43,7 @@ public class CommandList : MonoBehaviour
     {
         [YarnCommand("change_background_1")]
 
-        public static void background1() 
+        public static void Background1() 
         {
             if (SpriteChanger.Instance != null)
             {
