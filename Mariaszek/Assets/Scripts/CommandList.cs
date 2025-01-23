@@ -61,7 +61,7 @@ public class CommandList : MonoBehaviour
 
         public static void Scene()
         {
-            SceneManager.LoadScene("DEMO");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
