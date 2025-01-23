@@ -12,7 +12,6 @@ public class CommandList : MonoBehaviour
 
         public static void Fade() 
         {
-            Debug.Log("Fading the camera!");
             CameraFade.Instance.TriggerFade(); 
         }
     }
@@ -82,6 +81,43 @@ public class CommandList : MonoBehaviour
         public static void Play()
         {
             Time.timeScale = 1f;
+        }
+    }
+
+    public class FreezePlayer
+    {
+        [YarnCommand("freeze_player")]
+        public static void Freeze()
+        {
+            Debug.Log("freeze_player command triggered!");
+
+            if (PlayerMovement.Instance != null)
+            {
+                PlayerMovement.Instance.FreezeMovement();
+            }
+
+            else
+            {
+                Debug.LogWarning("PlayerMovement instance is not set!");
+            }
+        }
+    }
+
+    public class DefrostPlayer
+    {
+        [YarnCommand("defrost_player")]
+
+        public static void Defrost()
+        {
+            if (PlayerMovement.Instance != null)
+            {
+                PlayerMovement.Instance.DefrostMovement();
+            }
+            
+            else
+            {
+                Debug.LogWarning("PlayerMovement instance is not set!");
+            }
         }
     }
 }

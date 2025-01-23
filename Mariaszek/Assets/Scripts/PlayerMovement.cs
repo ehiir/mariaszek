@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance { get; private set; }
+    public bool isMovementFrozen = false;
+
     public float moveSpeed;
 
     public float groundDrag;
@@ -19,8 +22,14 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody rb;
 
     //public Animator playerAnimation;
-    
 
+    void Awake()
+    {
+        if (Instance == null) Instance = this; 
+
+        else Destroy(gameObject);
+    }   
+    
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -63,6 +72,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (isMovementFrozen)
+        return;
+
         MovePlayer();
     }
 
@@ -88,5 +100,15 @@ public class PlayerMovement : MonoBehaviour
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
             rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
         }
+    }
+
+    public void FreezeMovement()
+    {
+        isMovementFrozen = true;
+    }
+
+    public void DefrostMovement()
+    {
+        isMovementFrozen = false;
     }
 }
