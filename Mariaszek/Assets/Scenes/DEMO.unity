@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95ccc0b4fceadcf45a57da57c7bb87e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMovementFrozen: 0
   moveSpeed: 7
   groundDrag: 7
   Ground:
@@ -326,7 +327,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 80844129}
-  playerMovement: {fileID: 378965775}
   oldPerson: 0
 --- !u!1 &589471951
 GameObject:

@@ -15,6 +15,7 @@ public class SpriteChanger : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
         else
         {
             Instance = this;
