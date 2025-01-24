@@ -489,6 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 80844129}
   oldPerson: 0
+  dog: 0
 --- !u!1 &589471951
 GameObject:
   m_ObjectHideFlags: 0
