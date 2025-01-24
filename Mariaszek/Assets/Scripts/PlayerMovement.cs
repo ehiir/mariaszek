@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
-    //public Animator playerAnimation;
+    //Animator playerAnimation;
 
     void Awake()
     {
@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        // playerAnimation = gameObject.GetComponent<Animator>();
     }
 
     void Update()
