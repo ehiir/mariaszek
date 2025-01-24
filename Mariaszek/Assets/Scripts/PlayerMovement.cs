@@ -74,7 +74,6 @@ public class PlayerMovement : MonoBehaviour
         // else
         // {
         //      playerAnimation.Play("Idle");
-
         // }
     }
 

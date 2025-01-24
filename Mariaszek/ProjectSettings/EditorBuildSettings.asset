@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DEMO.unity
     guid: da4c2d8764f67c3408e720aa25e090e8
+  - enabled: 1
+    path: Assets/Scenes/GhostyLads.unity
+    guid: b7e9d8763e27249718d5669ca71a9f10
   m_configObjects: {}
