@@ -916,6 +916,30 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2921578458777796556, guid: ddf0f0aa7251b324eb50882e8043647f,
+        type: 3}
+      propertyPath: spriteArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: f3be99291fcdf384589e748c95ef4f15,
+        type: 3}
+    - target: {fileID: 2921578458777796556, guid: ddf0f0aa7251b324eb50882e8043647f,
+        type: 3}
+      propertyPath: spriteArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3,
+        type: 3}
+    - target: {fileID: 2921578458777796556, guid: ddf0f0aa7251b324eb50882e8043647f,
+        type: 3}
+      propertyPath: spriteArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: f1caa50b1db37b3488bfb8b9c4cbbc3a,
+        type: 3}
+    - target: {fileID: 2921578458777796556, guid: ddf0f0aa7251b324eb50882e8043647f,
+        type: 3}
+      propertyPath: spriteArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: fc00a1a342ab0524eb5387b7e235b152,
+        type: 3}
     - target: {fileID: 4229028611812093444, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_Name

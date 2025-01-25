@@ -8,6 +8,7 @@ WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDE
 <<wait 2>>
 <<fran2 PCS>>
 Fran: Oh crap! What was that?
+<<PC_blank PCS>>
 <<ehir1 PCS>>
 Ehir: It shook like hell itself. 
 <<nika1 PCS>>
