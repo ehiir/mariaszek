@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: cardrive_anim
+  m_Name: Intro_Cartalk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: f11cb5f9d30e24b43bc02fa119184633, type: 3}
-    - time: 0.2
-      value: {fileID: 21300000, guid: 28cb4def2e58a8c49b0327f97f3ab2de, type: 3}
-    - time: 0.4
-      value: {fileID: 21300000, guid: dfcf5afa34f6c5a4c82f20e06819789a, type: 3}
+      value: {fileID: 21300000, guid: 7da0013dda6bbf145b29ce0f49ba5a9e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +44,13 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: f11cb5f9d30e24b43bc02fa119184633, type: 3}
-    - {fileID: 21300000, guid: 28cb4def2e58a8c49b0327f97f3ab2de, type: 3}
-    - {fileID: 21300000, guid: dfcf5afa34f6c5a4c82f20e06819789a, type: 3}
+    - {fileID: 21300000, guid: 7da0013dda6bbf145b29ce0f49ba5a9e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4166667
+    m_StopTime: 0.016666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

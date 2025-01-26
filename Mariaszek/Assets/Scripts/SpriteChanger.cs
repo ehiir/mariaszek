@@ -1,46 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class SpriteChanger : MonoBehaviour
 {
-    public static SpriteChanger Instance { get; private set; }
-    public SpriteRenderer spriteRenderer; 
-    public List<Sprite> sprites;
-    private int currentSpriteIndex = 0; 
-
-    void Awake()
-    {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-        }
-        
-        else
-        {
-            Instance = this;
-        }
-    }
+    public SpriteRenderer sr; 
+    public Sprite[] spriteArray;
+    Animator backgroundAnimation;
 
     void Start()
     {
-        if (spriteRenderer == null)
-        {
-            spriteRenderer = GetComponent<SpriteRenderer>();
-        }
-
-        if (sprites.Count > 0)
-        {
-            spriteRenderer.sprite = sprites[currentSpriteIndex];
-        }
+        backgroundAnimation = gameObject.GetComponent<Animator>();
     }
 
-    public void ChangeToNextSprite()
+
+    [YarnCommand("bg1")]
+    public void ChangeSprite()
     {
-        if (sprites.Count == 0) return;
+        sr.sprite = spriteArray[0];
+        backgroundAnimation.SetTrigger("background1");
+        
+    }
 
-        currentSpriteIndex = (currentSpriteIndex + 1) % sprites.Count;
+    [YarnCommand("bg2")]
+    public void ChangeSprite1()
+    {
+        sr.sprite = spriteArray[1];
+        backgroundAnimation.SetTrigger("background2");
+    }
 
-        spriteRenderer.sprite = sprites[currentSpriteIndex];
+    [YarnCommand("bg3")]
+    public void ChangeSprite2()
+    {
+        sr.sprite = spriteArray[2];
+        backgroundAnimation.SetTrigger("background3");
     }
 }

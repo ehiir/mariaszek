@@ -36,24 +36,6 @@ public class CommandList : MonoBehaviour
         }
     }
 
-    public class ChangeBG
-    {
-        [YarnCommand("change_background_1")]
-
-        public static void Background1() 
-        {
-            if (SpriteChanger.Instance != null)
-            {
-                SpriteChanger.Instance.ChangeToNextSprite();
-            }
-            
-            else
-            {
-                Debug.LogWarning("SpriteChanger instance is not set!");
-            }
-        }  
-    }
-
     public class LoadScene
     {
         [YarnCommand("load_scene")]

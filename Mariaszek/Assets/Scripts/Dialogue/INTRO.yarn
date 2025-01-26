@@ -6,6 +6,7 @@ WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDE
 <<wait 2>>
 <<shake_camera>>
 <<wait 2>>
+<<bg2 BG>>
 <<fran2 PCS>>
 Fran: Oh crap! What was that?
 <<ehir1 PCS>>
@@ -31,7 +32,7 @@ tags:
 position: 60,222
 ---
 <<wait 3>>
-<<change_background_1>>
+<<bg3 BG>>
 <<fade_camera>>
 <<nika1 PCS>>
 Nika: This place looks so old. Do you see anybody?

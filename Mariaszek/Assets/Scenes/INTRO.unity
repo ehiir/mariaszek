@@ -421,7 +421,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: aa53d1080e5fbc04dba218cfc932b274, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f11cb5f9d30e24b43bc02fa119184633, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -459,10 +459,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd3f50656b9c274195a54ff188c020a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 833718171}
-  sprites:
-  - {fileID: 21300000, guid: aa53d1080e5fbc04dba218cfc932b274, type: 3}
+  sr: {fileID: 833718171}
+  spriteArray:
+  - {fileID: 21300000, guid: f11cb5f9d30e24b43bc02fa119184633, type: 3}
   - {fileID: 21300000, guid: 7da0013dda6bbf145b29ce0f49ba5a9e, type: 3}
+  - {fileID: 21300000, guid: e9d5da68515daa844b9562bca8aa370b, type: 3}
 --- !u!95 &833718174
 Animator:
   serializedVersion: 5
