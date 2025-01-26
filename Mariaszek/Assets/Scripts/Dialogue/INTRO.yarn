@@ -3,26 +3,25 @@ tags:
 ---
 WAIT FOR A COUPLE SECONDS. MUSIC PLAYING, CHARACTERS IN THE CAR, CHATTING. SUDDENLY, THE CAMERA SHAKES. 
 <<play_music>>
-<<wait 5>>
+<<wait 2>>
 <<shake_camera>>
 <<wait 2>>
 <<fran2 PCS>>
 Fran: Oh crap! What was that?
-<<PC_blank PCS>>
 <<ehir1 PCS>>
 Ehir: It shook like hell itself. 
 <<nika1 PCS>>
 Nika: Did we hit something?
 <<labuda1 PCS>>
 Labuda: I don't know. I think we have to pull over and check. 
-<<nika2 PCS>>
+<<nika1 PCS>>
 Nika: Is there any gas station nearby?
-<<ehir1 PCS>>
+<<ehir2 PCS>>
 Ehir: This looks like an empty highway, so small chances.
+<<ehir1 PCS>>
 Ehir: But there should be a village nearby, my map is showing that!
 <<labuda2 PCS>>
 Labuda: Guess that's our only chance. 
-<<PC_blank PCS>>
 <<fade_camera>>
 <<jump WiesDroga>>
 ===

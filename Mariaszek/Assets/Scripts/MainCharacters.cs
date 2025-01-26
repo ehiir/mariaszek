@@ -18,7 +18,7 @@ public class MainCharacters : MonoBehaviour
     public void ChangeSprite()
     {
         sr.sprite = spriteArray[0];
-        //dialogueAnimation.SetTrigger("Ehir1");
+        dialogueAnimation.SetTrigger("Ehir1");
         
     }
 
@@ -26,7 +26,7 @@ public class MainCharacters : MonoBehaviour
     public void ChangeSprite1()
     {
         sr.sprite = spriteArray[1];
-         //dialogueAnimation.SetTrigger("Ehir2"); 
+        dialogueAnimation.SetTrigger("Ehir2"); 
         Debug.Log("Ehir2 na ekranie");
     }
 
@@ -66,7 +66,7 @@ public class MainCharacters : MonoBehaviour
     public void ChangeSprite6()
     {
         sr.sprite = spriteArray[6];
-        //dialogueAnimation.SetTrigger("Nika1"); 
+        dialogueAnimation.SetTrigger("Nika1"); 
         Debug.Log("Nika1 na ekranie");
     }
 
@@ -74,7 +74,7 @@ public class MainCharacters : MonoBehaviour
     public void ChangeSprite7()
     {
         sr.sprite = spriteArray[7];
-         //dialogueAnimation.SetTrigger("Nika2"); 
+        dialogueAnimation.SetTrigger("Nika2"); 
         Debug.Log("Nika2 na ekranie");
     }
 
