@@ -48,6 +48,8 @@ Fran: Hey, I think I see a person.
 <<ehir2 PCS>>
 Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
 <<old1 NPCS>>
-Old person: This ain't a town, child. That's a village.
+Old person: This ain't a town, child.
+<<old2 NPCS>>
+Old person: That's a village.
 <<load_scene>>
 ===
