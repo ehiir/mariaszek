@@ -33,7 +33,6 @@ position: 60,222
 <<wait 3>>
 <<bg3 BG>>
 <<fade_camera>>
-<<wait 1>>
 <<nika1 PCS>>
 Nika: This place looks so old. Do you see anybody?
 <<ehir2 PCS>>

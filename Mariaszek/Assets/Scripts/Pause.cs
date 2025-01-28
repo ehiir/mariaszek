@@ -10,7 +10,7 @@ public class Pause : MonoBehaviour
     // [SerializeField] AudioSource music;
     public bool isPaused;
     public bool canPause;
-    // public string sceneName;
+    public string sceneName;
 
     void Start()
     {
@@ -56,7 +56,6 @@ public class Pause : MonoBehaviour
 
     public void ExitGame()
     {
-        // SceneManager.LoadScene(sceneName);
-        Application.Quit();
+        SceneManager.LoadScene(sceneName);
     }
 }
