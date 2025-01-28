@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gameplay_Ehir2
+  m_Name: Gameplay_OldPerson2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -55,11 +55,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
+      value: {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
+      value: {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
     - time: 0.6666667
-      value: {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
+      value: {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -91,9 +91,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
-    - {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
-    - {fileID: 21300000, guid: cb0961bd6eb352240aa7c26673d1dfa3, type: 3}
+    - {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
+    - {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
+    - {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

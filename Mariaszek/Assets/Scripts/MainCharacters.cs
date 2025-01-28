@@ -9,7 +9,7 @@ public class MainCharacters : MonoBehaviour
     public Sprite[] spriteArray;
     Animator dialogueAnimation;
 
-     void Start()
+    void Start()
     {
         dialogueAnimation = gameObject.GetComponent<Animator>();
     }

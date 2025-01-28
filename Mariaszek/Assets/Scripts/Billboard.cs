@@ -1,19 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class Billboard : MonoBehaviour
 {
     private Transform cameraTransform;
-
-    void Start()
+    
+    private void Awake()
     {
         cameraTransform = Camera.main.transform;
     }
 
-    void Update()
+    private void OnEnable()
     {
-        transform.LookAt(cameraTransform);
-        cameraTransform.rotation = Quaternion.Euler(0, cameraTransform.rotation.eulerAngles.y, 0);
+        CinemachineCore.CameraUpdatedEvent.AddListener(OnCameraUpdated);
+    }
+
+    private void OnDisable()
+    {
+        CinemachineCore.CameraUpdatedEvent.RemoveListener(OnCameraUpdated);
+    }
+
+    void OnCameraUpdated(CinemachineBrain brain)
+    {
+        transform.forward = cameraTransform.forward;
     }
 }

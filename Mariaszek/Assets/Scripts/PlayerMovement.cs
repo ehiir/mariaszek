@@ -8,11 +8,11 @@ public class PlayerMovement : MonoBehaviour
     public bool isMovementFrozen = false;
 
     public float moveSpeed;
-
     public float groundDrag;
     public LayerMask Ground;
 
     public Transform orientation;
+    public Camera mainCamera;
 
     float horizontalInput;
     float verticalInput;
@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
-    //Animator playerAnimation;
+    // Animator playerAnimation;
 
     void Awake()
     {
@@ -29,17 +29,18 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
         else
         {
             Instance = this;
         }
     }
-    
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+        if (mainCamera == null) mainCamera = Camera.main; 
 
         // playerAnimation = gameObject.GetComponent<Animator>();
     }
@@ -80,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         if (isMovementFrozen)
-        return;
+            return;
 
         MovePlayer();
     }
@@ -93,7 +94,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        Vector3 forward = mainCamera.transform.forward;
+        forward.y = 0; 
+        forward.Normalize();
+
+        Vector3 right = mainCamera.transform.right;
+        right.y = 0; 
+        right.Normalize();
+
+        moveDirection = forward * verticalInput + right * horizontalInput;
 
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
     }
