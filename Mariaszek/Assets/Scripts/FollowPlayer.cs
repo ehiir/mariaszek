@@ -22,7 +22,7 @@ public class FollowPlayer : MonoBehaviour
     {
         nav.SetDestination(target.position);
 
-        if (nav.velocity.magnitude > 0.5f)  
+        if (nav.velocity.magnitude > 1f)  
         {
             Debug.Log("NPC is walking");
 
