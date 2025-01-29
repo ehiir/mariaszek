@@ -6,6 +6,7 @@ using Cinemachine;
 public class Billboard : MonoBehaviour
 {
     private Transform cameraTransform;
+    private BoxCollider collider;
     
     private void Awake()
     {
@@ -20,6 +21,17 @@ public class Billboard : MonoBehaviour
     private void OnDisable()
     {
         CinemachineCore.CameraUpdatedEvent.RemoveListener(OnCameraUpdated);
+    }
+
+    void Start()
+    {
+        collider = GetComponent<Rigidbody>().GetComponentInChildren<BoxCollider>();
+    }
+
+    void FixedUpdate()
+    {
+        collider.transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
+        collider.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     void OnCameraUpdated(CinemachineBrain brain)
