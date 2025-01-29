@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
-    // Animator playerAnimation;
+    Animator playerAnimation;
 
     void Awake()
     {
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (mainCamera == null) mainCamera = Camera.main; 
 
-        // playerAnimation = gameObject.GetComponent<Animator>();
+        playerAnimation = gameObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -52,30 +52,30 @@ public class PlayerMovement : MonoBehaviour
 
         rb.drag = groundDrag;
 
-        // if (Input.GetKey(KeyCode.W))
-        // {
-        //     playerAnimation.Play("Back walk");
-        // }
+        if (Input.GetKey(KeyCode.W))
+        {
+            playerAnimation.Play("Player_Back");
+        }
 
-        // else if (Input.GetKey(KeyCode.A))
-        // {
-        //      playerAnimation.Play("Left walk");
-        // }
+        else if (Input.GetKey(KeyCode.A))
+        {
+             playerAnimation.Play("Player_Left");
+        }
 
-        // else if (Input.GetKey(KeyCode.S))
-        // {
-        //     playerAnimation.Play("Front walk");
-        // }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            playerAnimation.Play("Player_Front");
+        }
 
-        // else if (Input.GetKey(KeyCode.D))
-        // {
-        //      playerAnimation.Play("Right walk");
-        // }
+        else if (Input.GetKey(KeyCode.D))
+        {
+             playerAnimation.Play("Player_Right");
+        }
 
-        // else
-        // {
-        //      playerAnimation.Play("Idle");
-        // }
+        else
+        {
+             playerAnimation.Play("Player_Idle");
+        }
     }
 
     void FixedUpdate()

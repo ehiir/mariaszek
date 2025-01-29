@@ -11,20 +11,15 @@ Old person: I am indeed, young person.
 Old person: Also, that was rude.
 <<Old_blank NPCS>>
 <<fran1 PCS>>
--> Nah.
+-> Nuh uh.
     <<PC_blank PCS>>
     <<old2 NPCS>>
-    Old person: What do you mean???
+    Old person: What do you mean "nuh-uh"???
     <<Old_blank NPCS>>
 -> Yes it was, sorry.
     <<PC_blank PCS>>
     <<old1 NPCS>>
     Old person: I forgive you :3
-    <<Old_blank NPCS>>
--> Fuck you.
-    <<PC_blank PCS>>
-    <<old2 NPCS>>
-    Old person: WHATTTT???!!!!
     <<Old_blank NPCS>>
 <<defrost_player>>
 ===
