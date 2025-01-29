@@ -32,7 +32,17 @@ public class CommandList : MonoBehaviour
 
         public static void Music() 
         {
-            Debug.Log("Playing Music");
+            AudioManager.Instance.NextClip();
+        }
+    }
+
+    public class LowVolume
+    {
+        [YarnCommand("turndown_music")]
+
+        public static void Volume() 
+        {
+            AudioManager.Instance.TurnDownMusic();
         }
     }
 

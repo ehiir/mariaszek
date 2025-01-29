@@ -1,11 +1,11 @@
 ﻿title: Start
 tags:
 ---
-<<play_music>>
 <<wait 5>>
 <<shake_camera>>
 <<wait 2>>
 <<bg2 BG>>
+<<turndown_music>>
 <<fran2 PCS>>
 Fran: Oh crap! What was that?
 <<ehir1 PCS>>
@@ -22,18 +22,16 @@ Ehir: This looks like an empty highway, so small chances.
 Ehir: But there should be a village nearby, my map is showing that!
 <<labuda2 PCS>>
 Labuda: Guess that's our only chance. 
+<<fran1 PCS>>
+Fran: Let's go...
+<<PC_blank PCS>>
 <<fade_camera>>
-<<jump WiesDroga>>
-===
-
-title: WiesDroga
-tags:
-position: 60,222
----
-<<wait 3>>
+<<play_music>>
+<<wait 2>>
+<<fade_camera>>
 <<bg3 BG>>
-<<fade_camera>>
-<<nika1 PCS>>
+<<wait 2>>
+<<nika2 PCS>>
 Nika: This place looks so old. Do you see anybody?
 <<ehir2 PCS>>
 Ehir: HEEEEEY!!!! ANYBODY HERE????
@@ -44,12 +42,26 @@ Ehir: Oh sorry, let me whisper to them and hope they miraculously come out of th
 <<fran1 PCS>>
 Fran: Hey, I think I see a person.
 <<PC_blank PCS>>
+<<fade_camera>>
+<<wait 2>>
+<<fade_camera>>
+<<bg4 BG>>
 <<wait 2>>
 <<ehir2 PCS>>
 Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
+<<PC_blank PCS>>
 <<old1 NPCS>>
 Old person: This ain't a town, child.
 <<old2 NPCS>>
 Old person: That's a village.
+<<Old_blank NPCS>>
+<<nika1 PCS>>
+Nika: Okay, but is there any place like this?
+<<PC_blank PCS>>
+<<old1 NPCS>>
+Old person: Yes, child. 
+Old person: You go down the road, it's riiiiight there.
+<<fade_camera>>
+<<wait 2>>
 <<load_scene>>
 ===

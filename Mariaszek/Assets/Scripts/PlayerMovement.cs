@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
         else
         {
             Instance = this;

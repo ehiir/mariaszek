@@ -826,6 +826,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f11cb5f9d30e24b43bc02fa119184633, type: 3}
   - {fileID: 21300000, guid: 7da0013dda6bbf145b29ce0f49ba5a9e, type: 3}
   - {fileID: 21300000, guid: e9d5da68515daa844b9562bca8aa370b, type: 3}
+  - {fileID: 21300000, guid: c8ba6a3a82f6ae64cbd59ef3e5d5ae9f, type: 3}
 --- !u!95 &833718174
 Animator:
   serializedVersion: 5
@@ -977,7 +978,7 @@ GameObject:
   - component: {fileID: 1562872845}
   - component: {fileID: 1562872843}
   m_Layer: 0
-  m_Name: Music
+  m_Name: AudioManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1001,7 +1002,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 55
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1103,9 +1104,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1562872842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 905fa3c28b739f34783d197a5d11f869, type: 3}
+  m_Script: {fileID: 11500000, guid: 54ced2c6aea75d94791bca2e1d2dd879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 91d51425174b3b948a571d7c9e265379, type: 3}
+  - {fileID: 8300000, guid: cda508143fc6f194b94faee610084c70, type: 3}
 --- !u!1 &1606854520
 GameObject:
   m_ObjectHideFlags: 0
