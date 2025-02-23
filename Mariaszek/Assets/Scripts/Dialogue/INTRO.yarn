@@ -26,11 +26,16 @@ Labuda: Guess that's our only chance.
 Fran: Let's go...
 <<PC_blank PCS>>
 <<fade_camera>>
+<<wait 1>>
 <<play_music>>
-<<wait 2>>
+<<wait 1>>
 <<fade_camera>>
 <<bg3 BG>>
-<<wait 2>>
+<<wait 1>>
+<<fade_camera>>
+<<wait 3>>
+<<bg4 BG>>
+<<fade_camera>>
 <<nika2 PCS>>
 Nika: This place looks so old. Do you see anybody?
 <<ehir2 PCS>>
@@ -45,7 +50,6 @@ Fran: Hey, I think I see a person.
 <<fade_camera>>
 <<wait 2>>
 <<fade_camera>>
-<<bg4 BG>>
 <<wait 2>>
 <<ehir2 PCS>>
 Ehir: Hello! Do you know where we can find a place to fix up our car in this town?
