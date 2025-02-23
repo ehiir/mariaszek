@@ -31,11 +31,6 @@ Fran: Let's go...
 <<wait 1>>
 <<fade_camera>>
 <<bg3 BG>>
-<<wait 1>>
-<<fade_camera>>
-<<wait 3>>
-<<bg4 BG>>
-<<fade_camera>>
 <<nika2 PCS>>
 Nika: This place looks so old. Do you see anybody?
 <<ehir2 PCS>>
