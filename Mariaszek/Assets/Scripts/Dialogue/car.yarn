@@ -1,0 +1,17 @@
+﻿title: car
+tags:
+---
+<<freeze_player>>
+Car is making an unsettling, buzzing sound. 
+It would be dangerous to just go back on the highway.
+-> Drive to Mariaszek
+    You all get in the car, admiring the scenery.
+    <<fade_camera>>
+    <<wait 2>>
+    <<load_scene>>
+-> Stay a little longer 
+    <<ehir2 PCS>>
+    Ehir: Lovely town! I mean village. Lets go see around.
+    <<PC_blank PCS>>
+    <<defrost_player>>
+===
