@@ -15,6 +15,11 @@ public class DialogueTrigger : MonoBehaviour
     public bool ardenia = false;
     public bool hotelowner2 = false;
     public bool kanapka = false;
+    public bool car = false;
+    public bool sign = false;
+    public bool oldpath = false;
+    public bool podmechanikiem = false;
+    public bool hotelowner = false;
 
     void Update()
     {
@@ -57,6 +62,31 @@ public class DialogueTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && kanapka == true)
         {
            dialogueRunner.StartDialogue("kanapka");
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && car == true)
+        {
+           dialogueRunner.StartDialogue("car");
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && sign == true)
+        {
+           dialogueRunner.StartDialogue("sign");
+        }
+
+         if (Input.GetKeyDown(KeyCode.E) && oldpath == true)
+        {
+           dialogueRunner.StartDialogue("oldpath");
+        }
+
+         if (Input.GetKeyDown(KeyCode.E) && podmechanikiem == true)
+        {
+           dialogueRunner.StartDialogue("podmechanikiem");
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && hotelowner == true)
+        {
+           dialogueRunner.StartDialogue("hotelowner_ext");
         }
     }
 
@@ -101,6 +131,31 @@ public class DialogueTrigger : MonoBehaviour
         {
             kanapka = true;
         }
+
+          if (other.tag == "Car")
+        {
+            car = true;
+        }
+
+          if (other.tag == "Sign")
+        {
+            sign = true;
+        }
+
+           if (other.tag == "Oldpath")
+        {
+            oldpath = true;
+        }
+
+          if (other.tag == "Podmechanikiem")
+        {
+            podmechanikiem = true;
+        }
+
+        if (other.tag == "Hotelowner")
+        {
+            hotelowner = true;
+        }
     }
 
     void OnTriggerExit (Collider other)
@@ -138,6 +193,31 @@ public class DialogueTrigger : MonoBehaviour
          if (other.tag == "Kanapka")
         {
             kanapka = false;
+        }
+
+          if (other.tag == "Car")
+        {
+            car = false;
+        }
+
+        if (other.tag == "Sign")
+        {
+            sign = false;
+        }
+        
+           if (other.tag == "Oldpath")
+        {
+            oldpath = false;
+        }
+
+         if (other.tag == "Podmechanikiem")
+        {
+            podmechanikiem = false;
+        }
+
+         if (other.tag == "Hotelowner")
+        {
+            hotelowner = false;
         }
     }
 }
