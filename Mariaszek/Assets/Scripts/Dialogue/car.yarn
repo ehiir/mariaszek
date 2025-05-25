@@ -2,16 +2,17 @@
 tags:
 ---
 <<freeze_player>>
-Car is making an unsettling, buzzing sound. 
-It would be dangerous to just go back on the highway.
--> Drive to Mariaszek
-    You all get in the car, admiring the scenery.
-    <<fade_camera>>
-    <<wait 2>>
-    <<load_scene>>
--> Stay a little longer 
-    <<ehir2 PCS>>
-    Ehir: Lovely town! I mean village. Lets go see around.
-    <<PC_blank PCS>>
-    <<defrost_player>>
+Hrrr.... Hissss.... Wrrrrr.... Turturturtur....
+<<fran2 PCS>>
+Fran: Chyba nie powinien tak robić.
+<<ehir1 PCS>>
+Ehir: Może chce nam coś powiedzieć?
+<<ehir1 PCS>>
+Ehir: Na przykład: "Porzućcie nadzieję ci, którzy tu wchodzicie".
+<<nika1 PCS>>
+Nika: Ja myślę że on śpi. I chrapie!
+<<labuda1 PCS>>
+Labuda: I tak nie możemy nim pojechać, bo jeszcze bardziej się zepsuje.
+<<PC_blank PCS>>
+<<defrost_player>>
 ===

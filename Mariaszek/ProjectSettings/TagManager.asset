@@ -7,6 +7,12 @@ TagManager:
   - NPC
   - OldPerson
   - Dog
+  - Mareczek
+  - Detektyw
+  - Tarociara
+  - Ardenia
+  - Hotelowner2
+  - Kanapka
   layers:
   - Default
   - TransparentFX

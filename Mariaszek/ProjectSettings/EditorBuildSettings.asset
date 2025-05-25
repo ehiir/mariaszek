@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/INTRO.unity
     guid: b05f85d0f30109d4da3efbe09fee9eda
   - enabled: 1
+    path: "Assets/Scenes/WIE\u015A.unity"
+    guid: 77482980a1a970f468bcf7118759ad5d
+  - enabled: 1
     path: Assets/Scenes/MARIASZEK EXTERIORR.unity
     guid: da4c2d8764f67c3408e720aa25e090e8
   - enabled: 1
+    path: Assets/Scenes/HOTEL LOBBY.unity
+    guid: ce84c3f37dc2c7c41bc3abaea2d7beb2
+  - enabled: 0
     path: Assets/Scenes/GhostyLads.unity
     guid: b7e9d8763e27249718d5669ca71a9f10
   m_configObjects: {}

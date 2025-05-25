@@ -1349,9 +1349,14 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
+      propertyPath: startNode
+      value: Start_fixed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
+        type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: 79f725e2c1be4a14caf7c178af49bc57,
+      objectReference: {fileID: 7545569452688597077, guid: be4d3a2314fe54c478f1ca51929b5578,
         type: 3}
     - target: {fileID: 7778558434935992803, guid: 7f29e5f7ffdea4a6793cefb278b61f0c,
         type: 3}
