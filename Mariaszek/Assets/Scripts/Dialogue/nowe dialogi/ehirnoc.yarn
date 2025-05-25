@@ -1,0 +1,44 @@
+﻿title: ehirnoc
+tags:
+position: 0,0
+---
+<<bg2 BG>>
+<<turndown_music>> //change music
+<<fade_camera>>
+Ehir: Wszyscy zasnęli. Musieli się zmęczyć tymi wrażeniami.
+Ehir: Ja też padam z nóg, ale muszę zrobić jeszcze jedną rzecz.
+Ehir: Przetestować nową grę Fran! Zrobił świetną karciankę.
+Ehir: Pora rozbić kasyno!
+Ehir: Czy rozbić bank? Mówi się tak? Nieważne!
+Ehir: ♪♫♪♫♪♫
+<<wait 2>>
+<<bg2 BG>>
+???: *Tuptuptup...*
+Ehir: Huh?
+???: *Oink, oink...*
+Ehir: ...Świnka? Tutaj?
+Ehir: Uhh, wiem że mieliśmy się nie rozdzielać... Ale tylko szybko spojrzę i wracam do łóżka.
+<<fade_camera>>
+<<wait 1>>
+<<bg2 BG>>
+<<fade_camera>>
+Ehir: Ślady świnii?
+???: Oink! Oink!
+Ehir: Brzmi, jakby chciała mnie gdzieś zaprowadzić...
+Ehir: To o to ci chodzi, świnko? Mam iść za tobą?
+???: Oink!
+Ehir: Brzmiało jak tak.
+<<fade_camera>>
+<<wait 1>>
+<<bg2 BG>>
+<<fade_camera>>
+Następnego ranka.
+Labuda: Dzień dobry, myszeczki.
+Labuda: Zaspałem, że już wszyscy na nogach?
+Nika: ...
+Fran: ...
+Labuda: Hej... Gdzie jest Ehir?
+<<fade_camera>>
+Koniec rozdziału pierwszego.
+<<load_scene>>
+===

@@ -1,0 +1,32 @@
+﻿title: MariaszekRide
+tags:
+---
+<<wait 1>>
+<<bg2 BG>>
+<<nika1 PCS>>
+Nika: O ja cie, jak tu ładnie!
+Nika: Dosłownie jak z filmów animowanych.
+<<ehir2 PCS>>
+Ehir: Dosłownie. Tylko wziąć i zrobić o tym film. Albo grę. Fran, może na następny GameJam?
+<<fran1 PCS>>
+Fran: Można. Taką przytulną do odstresowania.
+<<labuda1 PCS>>
+Labuda: Że też mają coś takiego na tym końcu świata.
+Labuda: Jakby tu sobie kiedyś zrobić wakacje, pikniczek na ogródku...
+<<labuda2 PCS>>
+Labuda: Wykończyłyby mnie pyłki, ale miejsce fajne.
+<<ehir2 PCS>>
+Ehir: Myślicie że mają tu zwierzątka?
+<<nika2 PCS>>
+Nika: W restauracji? Niby można, ale czemu by mieli?
+<<ehir2 PCS>>
+Ehir: Niektóre takie mają mini zoo.
+Ehir: Mam nadzieję... Chciałabym pogłaskać krówkę.
+<<PC_blank PCS>>
+Samochód ledwo zajeżdza na parking, cały czas wydając z siebie niepokojące odgłosy. 
+Robaczki, czyli nasi bohaterzy wychodzą, podziwiając ukryty na końcu świata ośrodek wypoczynkowy. 
+Nie wiedzą jeszcze, że niekoniecznie czekają na nich rzeczy, które można nazwać wypoczynkiem...
+<<fade_camera>>
+<<wait 2>>
+<<load_scene>>
+===

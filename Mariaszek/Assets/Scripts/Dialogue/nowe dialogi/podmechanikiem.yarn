@@ -1,0 +1,23 @@
+﻿title: podmechanikiem
+tags:
+---
+<<freeze_player>>
+<<nika2 PCS>>
+Nika: Wygląda na dość... Opuszczone.
+<<labuda1 PCS>>
+Labuda: Słyszę radio.
+Labuda: Może jest w środku i nas nie widzi?
+-> Zawołaj
+    <<PC_blank PCS>>
+    Krzyczycie, chcąc zwrócić uwagę kogoś, kto może być w środku.
+    Nikt nie odpowiada.
+-> Rzuć kamieniem
+    <<PC_blank PCS>>
+    Fran podnosi mały kamień z ziemi i celuje nim w drewnianą ścianę szopy.
+    Kamyk uderza z głuchym stuknięciem.
+    Żadnej odpowiedzi.
+<<ehir2 PCS>>
+Ehir: Chyba nie ma co...
+<<PC_blank PCS>>
+<<defrost_player>>
+===

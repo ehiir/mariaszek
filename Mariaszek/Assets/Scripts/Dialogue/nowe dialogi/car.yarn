@@ -1,0 +1,18 @@
+﻿title: car
+tags:
+---
+<<freeze_player>>
+Hrrr.... Hissss.... Wrrrrr.... Turturturtur....
+<<fran2 PCS>>
+Fran: Chyba nie powinien tak robić.
+<<ehir1 PCS>>
+Ehir: Może chce nam coś powiedzieć?
+<<ehir1 PCS>>
+Ehir: Na przykład: "Porzućcie nadzieję ci, którzy tu wchodzicie".
+<<nika1 PCS>>
+Nika: Ja myślę że on śpi. I chrapie!
+<<labuda1 PCS>>
+Labuda: I tak nie możemy nim pojechać, bo jeszcze bardziej się zepsuje.
+<<PC_blank PCS>>
+<<defrost_player>>
+===

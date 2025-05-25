@@ -1,0 +1,35 @@
+﻿title: hotelowner_int
+tags:
+---
+<<freeze_player>>
+<<HotelOwner1 NPCS>>
+Właścicielka hotelu: Witajcie.
+<<Old_blank NPCS>>
+<<labuda1 PCS>>
+Labuda: Czy wiadomo, kiedy będzie mechanik?
+<<HotelOwner1 NPCS>>
+Właścicielka hotelu: Udało mi się do niego dodzwonić. Wróci za dwa dni.
+<<HotelOwner1 NPCS>>
+<<Old_blank NPCS>>
+<<nika1 PCS>>
+Nika: To całkiem niedługo, chwilkę poczekamy i możemy wracać nad morze!
+<<fran1 PCS>>
+Fran: Czyli możemy tu zostać następne dwie noce?
+<<PC_blank PCS>>
+<<HotelOwner1 NPCS>>
+Właścicielka hotelu: Jak najbardziej. Wiem, że okoliczności są niekorzystne, ale spróbujcie się zrelaksować. Do tego czasu zajmiemy się wami jak gośćmi.
+Właścicielka hotelu: Wasz pokój też jest już gotowy. 
+<<Old_blank NPCS>>
+<<nika1 PCS>>
+Nika: Jest pani zbyt miła...
+<<HotelOwner1 NPCS>>
+Właścicielka hotelu: Nie martwcie się o to.
+Właścicielka hotelu: Prosiłabym tylko o zachowanie manier w naszym ośrodku. 
+<<Old_blank NPCS>>
+<<ehir1 PCS>>
+Ehir: Słyszysz, Fran?
+<<fran2 PCS>>
+Fran: I kto to mówi.
+<<PC_blank PCS>>
+<<defrost_player>>
+===

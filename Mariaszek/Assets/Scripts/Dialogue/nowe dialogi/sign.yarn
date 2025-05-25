@@ -1,0 +1,12 @@
+﻿title: sign
+tags:
+---
+<<freeze_player>>
+Na tabliczce napisane jest "Tu diabeł ma młode".
+<<fran2 PCS>>
+Fran: Hmm...
+<<ehir2 PCS>>
+Ehir: Ciekawe o co chodzi.
+<<PC_blank PCS>>
+<<defrost_player>>
+===

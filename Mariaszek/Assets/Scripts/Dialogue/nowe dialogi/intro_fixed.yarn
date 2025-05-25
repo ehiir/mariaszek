@@ -1,0 +1,72 @@
+﻿title: Start_fixed
+tags:
+---
+<<wait 5>>
+<<shake_camera>>
+<<wait 2>>
+<<bg2 BG>>
+<<turndown_music>>
+<<fran2 PCS>>
+Fran: O cholera, co to było?
+<<ehir1 PCS>>
+Ehir: Zatrzęsło nami jak w mikserze. 
+<<nika1 PCS>>
+Nika: Uderzyliśmy w coś?
+<<labuda1 PCS>>
+Labuda: Nie wiem. Musimy zjechać na pobocze i sprawdzić, czy auto jest całe. 
+<<nika1 PCS>>
+Nika: Może zaraz będzie jakaś stacja benzynowa? Możemy spróbować się dotoczyć.
+Nika: Przydałoby się kupić jakąś wodę, jest z 40 stopni.
+<<ehir2 PCS>>
+Ehir: Jesteśmy w polu na ekspresówce, więc średnio to widzę.
+<<ehir1 PCS>>
+Ehir: Ale niedaleko powinna być wioska, tak mi pokazują mapy!
+Ehir: Może mają jakiegoś wiejskiego mechanika. Mój dziadek na przykład naprawiłby wszystko sam za flaszkę...
+<<labuda2 PCS>>
+Labuda: Chyba nie mamy wyboru, w tym stanie za daleko nie zajedziemy. 
+<<fran1 PCS>>
+Fran: No dobra, jedźmy...
+<<PC_blank PCS>>
+<<fade_camera>>
+<<wait 1>>
+<<play_music>>
+<<wait 1>>
+<<fade_camera>>
+<<bg3 BG>>
+<<wait 2>>
+<<nika2 PCS>>
+Nika: Wygląda jak koniec świata. Widzicie tu kogoś, kogo możemy spytać o pomoc?
+<<ehir2 PCS>>
+Ehir: HEEEJ!!! JEST TU KTO??? POTRZEBUJEMY MECHANIKA!!!
+<<labuda1 PCS>>
+Labuda: Ciszej! Skąd ty się urwałaś? W takim tempie to wszystkich przestraszysz.
+<<ehir1 PCS>>
+Ehir: Oh przepraszam, będę szeptać i liczyć na najlepsze. Rozejrzyj się, pewnie nie mają tu nawet internetu. Jak karmią kury na podwórku, to trzeba być głośno, żeby usłyszeli.
+<<labuda1 PCS>>
+Labuda: I trzeba się drzeć na cały regulator? Nie możemy zapukać jak kulturalni ludzie?
+<<ehir2 PCS>>
+Ehir: Tak się robi na wsi. Krzyczysz na całą wioskę albo po prostu wchodzisz przez bramę.
+<<fran1 PCS>>
+Fran: Ej, chyba kogoś tam widzę.
+<<PC_blank PCS>>
+<<wait 2>>
+<<wait 2>>
+<<ehir2 PCS>>
+Ehir: Dzień dobry! Czy wiecie może państwo gdzie możemy w tym mieście znaleźć mechanika?
+<<PC_blank PCS>>
+<<old1 NPCS>>
+Old person: To nie jest miasto, moje dziecko.
+<<old2 NPCS>>
+Old person: To jest wieś.
+<<Old_blank NPCS>>
+<<nika1 PCS>>
+Nika: Dobrze, ale jest tu gdzieś mechanik? Mamy problem z samochodem, a musimy zajechać jeszcze nad morze...
+<<PC_blank PCS>>
+<<old1 NPCS>>
+Old person: Mechanik... Tak, dzieci, mamy tutaj kogoś takiego. Jest obok naszego hotelu, tam zaraz na końcu drogi.
+Old person: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat. 
+Old person: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
+<<fade_camera>>
+<<wait 2>>
+<<load_scene>>
+===

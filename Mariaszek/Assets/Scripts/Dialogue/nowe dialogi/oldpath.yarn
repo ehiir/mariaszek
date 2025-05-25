@@ -1,0 +1,72 @@
+﻿title: oldpath
+tags:
+---
+<<fade_camera>>
+<<bg2 BG>>
+<<nika2 PCS>>
+Nika: Chyba się zgubiliśmy...
+<<ehir1 PCS>>
+Ehir: Zgubienie oznacza dodatkowe zwiedzanie!
+<<labuda1 PCS>>
+Labuda: Też widzicie ten samochód?
+<<nika2 PCS>>
+Nika: Ciekawe czemu zostawili go na środku ścieżki...
+Nika: Niby nikt rozsądny by tu nie zaglądał, ale większość wraków stoi za płotem mechanika. Czemu ten jest inny?
+<<fran1 PCS>>
+Fran: Zobaczymy, co jest w środku?
+<<nika2 PCS>>
+Nika: Do środka? Nie przesadzasz?
+<<labuda2 PCS>>
+Labuda: Spokojnie, pewnie stoi tu luzem od lat. Z resztą, nie widać żywej duszy.
+<<labuda1 PCS>>
+Labuda: Kiedyś z Fran chodziliśmy po opuszczonych budynkach, można było znaleźć fajne rzeczy. Stare butelki, listy...
+<<ehir1 PCS>>
+Ehir: Nawiedzone itemy! Ale super!
+<<labuda2 PCS>>
+Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się w takie sprawy, jasne?
+<<fade_camera>>
+<<bg2 BG>>
+<<fade_camera>>
+Labuda: No i proszę, otwarte.
+<<nika1 PCS>>
+Nika: Nie wygląda jakby coś tu było. Tylko śmierdzi stęchlizną.
+<<ehir2 PCS>>
+Ehir: U mnie też nic.
+<<fran1 PCS>>
+Fran: Trzeba sprawdzić schowki i pod fotelami. 
+Fran: O proszę, tutaj coś mamy.
+<<PC_blank PCS>>
+Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
+<<bg2 BG>>
+<<fran2 PCS>>
+Fran: Chłopaki, nie podoba mi się to...
+<<ehir2 PCS>>
+Ehir: Co to? Wygląda jak... Oj, nie...
+<<labuda1 PCS>>
+Labuda: Zmywajmy się stąd. Jak najszybciej.
+<<fade_camera>>
+<<bg2 BG>>
+<<fade_camera>>
+<<nika1 PCS>>
+Nika: Co tam było?
+<<labuda1 PCS>>
+Labuda: Paszporty. Wszystkie ważne dokumenty, portfele... I stary telefon.
+<<nika1 PCS>>
+Nika: O cholera... Nikt nie zostawiłby takich rzeczy w samochodzie, chyba że...
+<<fran2 PCS>>
+Fran: Chyba że coś się z nim stało.
+<<labuda1 PCS>> 
+Labuda: Niczego nie widzieliśmy. Ani słowa nikomu dookoła, bo wpakujemy się w jeszcze większe kłopoty.
+<<ehir2 PCS>>
+Ehir: Mamy udawać, że nic się nie stało?
+<<labuda2 PCS>>
+Labuda: Nie wiemy, dlaczego ktoś zostawił tak ważne rzeczy. Jeśli stało się coś złego, a ten kto to zrobił dalej jest gdzieś tutaj...
+<<fran2 PCS>>
+Fran: Wyjeżdzajmy stąd jak najszybciej. I nie rozdzielajmy się, pod żadnym pozorem.
+Fran: Ani słowa, jasne?
+<<PC_blank PCS>>
+W milczeniu, wszyscy przytakują.
+<<fade_camera>>
+<<wait 2>>
+<<load_scene>>
+===
