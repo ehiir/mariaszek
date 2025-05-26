@@ -1754,6 +1754,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!1 &246297760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,7 +1831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8a44f922ab7d83b4c84a6314be535d9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2815,6 +2820,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!212 &378965783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4020,6 +4030,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!136 &573237712
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4887,7 +4902,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: c5130a94257756540853f9a7e3ffbea5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5605,7 +5620,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4883db655cc65ae4397c06b7302102f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7232,6 +7247,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!136 &1015423801
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8765,6 +8785,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!1 &1181603460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9044,7 +9069,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 0b89873ceaba6a747a8eb1ff4439b89f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9620,7 +9645,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 5469836ca945cd04bb7b84d4e431bcb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9847,7 +9872,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 431d84f62b3789242b3c1f58ed34a297, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10159,7 +10184,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9ad0efccfbfd0d44e809d8e2a7da07d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10565,7 +10590,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 1f4b9035596299f4f942ffb46712c640, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10873,7 +10898,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8a44f922ab7d83b4c84a6314be535d9e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12914,7 +12939,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4883db655cc65ae4397c06b7302102f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13719,6 +13744,11 @@ MonoBehaviour:
   ardenia: 0
   hotelowner2: 0
   kanapka: 0
+  car: 0
+  sign: 0
+  oldpath: 0
+  podmechanikiem: 0
+  hotelowner: 0
 --- !u!1 &1979573060
 GameObject:
   m_ObjectHideFlags: 0
@@ -14443,7 +14473,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4883db655cc65ae4397c06b7302102f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14901,7 +14931,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 638a90c546b2fd44e867f608e865baa0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

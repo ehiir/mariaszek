@@ -18,6 +18,7 @@ TagManager:
   - Oldpath
   - Podmechanikiem
   - Hotelowner
+  - Swinka
   layers:
   - Default
   - TransparentFX

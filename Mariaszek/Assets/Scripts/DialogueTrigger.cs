@@ -20,6 +20,7 @@ public class DialogueTrigger : MonoBehaviour
     public bool oldpath = false;
     public bool podmechanikiem = false;
     public bool hotelowner = false;
+    public bool swinka = false;
 
     void Update()
     {
@@ -87,6 +88,11 @@ public class DialogueTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && hotelowner == true)
         {
            dialogueRunner.StartDialogue("hotelowner_ext");
+        }
+
+         if (Input.GetKeyDown(KeyCode.E) && swinka == true)
+        {
+           dialogueRunner.StartDialogue("swinkawstodole");
         }
     }
 
@@ -156,6 +162,12 @@ public class DialogueTrigger : MonoBehaviour
         {
             hotelowner = true;
         }
+
+        
+        if (other.tag == "Swinka")
+        {
+            swinka = true;
+        }
     }
 
     void OnTriggerExit (Collider other)
@@ -218,6 +230,11 @@ public class DialogueTrigger : MonoBehaviour
          if (other.tag == "Hotelowner")
         {
             hotelowner = false;
+        }
+         
+        if (other.tag == "Swinka")
+        {
+            swinka = false;
         }
     }
 }
