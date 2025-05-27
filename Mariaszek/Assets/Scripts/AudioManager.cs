@@ -5,9 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
-    public List<AudioClip> audioClips;
-
     private AudioSource audioSource;  
+    public List<AudioClip> audioClips;
     private int currentClipIndex = 0; 
 
     void Awake()
@@ -41,7 +40,6 @@ public class AudioManager : MonoBehaviour
             audioSource.clip = audioClips[index];  
             audioSource.Play();  
         }
-
         else
         {
             Debug.LogWarning("Invalid clip index or empty audio clips list.");

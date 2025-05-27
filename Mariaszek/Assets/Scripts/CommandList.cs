@@ -46,6 +46,26 @@ public class CommandList : MonoBehaviour
         }
     }
 
+    public class PlayVideo
+    {
+        [YarnCommand("play_video")]
+
+        public static void Video()
+        {
+            VideoManager.Instance.PlayClip(0);
+        }
+    }
+
+    public class NextVideo
+    {
+        [YarnCommand("next_video")]
+
+        public static void Next()
+        {
+            VideoManager.Instance.NextClip();
+        }
+    }
+
     public class LoadScene
     {
         [YarnCommand("load_scene")]

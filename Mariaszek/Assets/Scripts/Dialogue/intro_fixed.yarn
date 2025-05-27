@@ -16,11 +16,13 @@ Nika: Uderzyliśmy w coś?
 Labuda: Nie wiem. Musimy zjechać na pobocze i sprawdzić, czy auto jest całe. 
 <<nika1 PCS>>
 Nika: Może zaraz będzie jakaś stacja benzynowa? Możemy spróbować się dotoczyć.
-Nika: Przydałoby się kupić jakąś wodę, jest z 40 stopni.
+<<fran1  PCS>>
+Fran: Przydałoby się kupić jakąś wodę, jest z 40 stopni.
 <<ehir2 PCS>>
 Ehir: Jesteśmy w polu na ekspresówce, więc średnio to widzę.
+<<nika2 PCS>>
+Nika: Niedaleko powinna być wioska, tak mi pokazują mapy!
 <<ehir1 PCS>>
-Ehir: Ale niedaleko powinna być wioska, tak mi pokazują mapy!
 Ehir: Może mają jakiegoś wiejskiego mechanika. Mój dziadek na przykład naprawiłby wszystko sam za flaszkę...
 <<labuda2 PCS>>
 Labuda: Chyba nie mamy wyboru, w tym stanie za daleko nie zajedziemy. 
@@ -28,12 +30,12 @@ Labuda: Chyba nie mamy wyboru, w tym stanie za daleko nie zajedziemy.
 Fran: No dobra, jedźmy...
 <<PC_blank PCS>>
 <<fade_camera>>
-<<wait 1>>
+<<wait 2>>
 <<play_music>>
 <<wait 1>>
 <<fade_camera>>
-<<bg3 BG>>
-<<wait 2>>
+<<play_video>>
+<<wait 1>>
 <<nika2 PCS>>
 Nika: Wygląda jak koniec świata. Widzicie tu kogoś, kogo możemy spytać o pomoc?
 <<ehir2 PCS>>
@@ -50,22 +52,27 @@ Ehir: Tak się robi na wsi. Krzyczysz na całą wioskę albo po prostu wchodzisz
 Fran: Ej, chyba kogoś tam widzę.
 <<PC_blank PCS>>
 <<wait 2>>
-<<wait 2>>
 <<ehir2 PCS>>
 Ehir: Dzień dobry! Czy wiecie może państwo gdzie możemy w tym mieście znaleźć mechanika?
 <<PC_blank PCS>>
 <<old1 NPCS>>
-Old person: To nie jest miasto, moje dziecko.
+Starsza osoba: To nie jest miasto, moje dziecko.
 <<old2 NPCS>>
-Old person: To jest wieś.
-<<Old_blank NPCS>>
+Starsza osoba: To jest wieś.
+<<NPC_blank NPCS>>
 <<nika1 PCS>>
 Nika: Dobrze, ale jest tu gdzieś mechanik? Mamy problem z samochodem, a musimy zajechać jeszcze nad morze...
 <<PC_blank PCS>>
 <<old1 NPCS>>
-Old person: Mechanik... Tak, dzieci, mamy tutaj kogoś takiego. Jest obok naszego hotelu, tam zaraz na końcu drogi.
-Old person: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat. 
-Old person: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
+Starsza osoba: Mechanik... Tak, dzieci, mamy tutaj kogoś takiego. Jest obok naszego hotelu, tam zaraz na końcu drogi.
+Starsza osoba: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat. 
+Starsza osoba: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
+<<fade_camera>>
+<<NPC_blank NPCS>>
+<<wait 2>>
+<<fade_camera>>
+<<next_video>>
+<<wait  29>>
 <<fade_camera>>
 <<wait 2>>
 <<load_scene>>
