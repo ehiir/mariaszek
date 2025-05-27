@@ -1759,6 +1759,7 @@ MonoBehaviour:
   oldpath: 0
   podmechanikiem: 0
   hotelowner: 0
+  swinka: 0
 --- !u!1 &246297760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,6 +2826,7 @@ MonoBehaviour:
   oldpath: 0
   podmechanikiem: 0
   hotelowner: 0
+  swinka: 0
 --- !u!212 &378965783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3901,7 +3903,6 @@ GameObject:
   - component: {fileID: 573237707}
   - component: {fileID: 573237710}
   - component: {fileID: 573237712}
-  - component: {fileID: 573237711}
   m_Layer: 0
   m_Name: pixel_tarociara1
   m_TagString: Tarociara
@@ -4009,32 +4010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eab81de364a9834b8ad29bb19cdc4f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &573237711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573237706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 484c928bd5cfa4e4fbf0965fc8ec0bde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueRunner: {fileID: 0}
-  oldPerson: 0
-  dog: 0
-  mareczek: 0
-  detektyw: 0
-  tarociara: 0
-  ardenia: 0
-  hotelowner2: 0
-  kanapka: 0
-  car: 0
-  sign: 0
-  oldpath: 0
-  podmechanikiem: 0
-  hotelowner: 0
 --- !u!136 &573237712
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5995,17 +5970,17 @@ PrefabInstance:
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.7
+      value: -2.63
       objectReference: {fileID: 0}
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.36
+      value: -1.02
       objectReference: {fileID: 0}
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.03
+      value: 6.12
       objectReference: {fileID: 0}
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
@@ -6050,12 +6025,12 @@ PrefabInstance:
     - target: {fileID: 803183604519125397, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.927003
+      value: 3.832
       objectReference: {fileID: 0}
     - target: {fileID: 803183604519125397, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_Size.y
-      value: 4.8459997
+      value: 4.531141
       objectReference: {fileID: 0}
     - target: {fileID: 803183604519125397, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
@@ -7252,6 +7227,7 @@ MonoBehaviour:
   oldpath: 0
   podmechanikiem: 0
   hotelowner: 0
+  swinka: 0
 --- !u!136 &1015423801
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8790,6 +8766,7 @@ MonoBehaviour:
   oldpath: 0
   podmechanikiem: 0
   hotelowner: 0
+  swinka: 0
 --- !u!1 &1181603460
 GameObject:
   m_ObjectHideFlags: 0
@@ -13749,6 +13726,7 @@ MonoBehaviour:
   oldpath: 0
   podmechanikiem: 0
   hotelowner: 0
+  swinka: 0
 --- !u!1 &1979573060
 GameObject:
   m_ObjectHideFlags: 0
@@ -14964,17 +14942,17 @@ PrefabInstance:
     - target: {fileID: 2957843441095946570, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.73
+      value: 2.49
       objectReference: {fileID: 0}
     - target: {fileID: 2957843441095946570, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.55
+      value: -0.98
       objectReference: {fileID: 0}
     - target: {fileID: 2957843441095946570, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.03
+      value: 6.12
       objectReference: {fileID: 0}
     - target: {fileID: 2957843441095946570, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
@@ -15014,17 +14992,17 @@ PrefabInstance:
     - target: {fileID: 3399930673488703131, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3399930673488703131, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.35
+      value: 3.754
       objectReference: {fileID: 0}
     - target: {fileID: 3399930673488703131, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.876
+      value: 4.30229
       objectReference: {fileID: 0}
     - target: {fileID: 3399930673488703131, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
         type: 3}
@@ -15053,48 +15031,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4889994307840023164, guid: d95e6ee4f24c0274eaf3f40c329dfc16, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4315712433120553336, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2119477185}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d95e6ee4f24c0274eaf3f40c329dfc16, type: 3}
---- !u!1 &2119477178 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4315712433120553336, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
-    type: 3}
-  m_PrefabInstance: {fileID: 2119477177}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2119477184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2957843441095946570, guid: d95e6ee4f24c0274eaf3f40c329dfc16,
     type: 3}
   m_PrefabInstance: {fileID: 2119477177}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2119477185
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2119477178}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c8310c6eb8758e642bc6e1a94ee3b7bc, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2126179166
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2957843441095946570}
   - component: {fileID: 3399930673488703131}
   - component: {fileID: 6705729493366851576}
-  - component: {fileID: 4889994307840023164}
+  - component: {fileID: 2229308370684018305}
+  - component: {fileID: 1789645824208272159}
   m_Layer: 0
   m_Name: NPCS
   m_TagString: Untagged
@@ -94,7 +95,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4315712433120553336}
   m_CullTransparentMesh: 1
---- !u!114 &4889994307840023164
+--- !u!114 &2229308370684018305
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -103,11 +104,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 4315712433120553336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bee2b5035d75224fba9cb24b0d283d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fe41a0e584689340bc313bb221871dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sr: {fileID: 3399930673488703131}
   spriteArray:
-  - {fileID: 21300000, guid: a9c666acedfd3fd4a9b7e8a414f9436b, type: 3}
-  - {fileID: 21300000, guid: c4a44c97b32af3641a58b901a3c32ba7, type: 3}
+  - {fileID: 21300000, guid: e17cd52032df68c488384f4267d2de48, type: 3}
+  - {fileID: 21300000, guid: f0e93b468b15a04478c7cd4f328566e4, type: 3}
+  - {fileID: 21300000, guid: 0aa4db86398b0d44484e497e19816ae8, type: 3}
+  - {fileID: 21300000, guid: e8aebf9f4c119214390470ff37ee3ded, type: 3}
+  - {fileID: 21300000, guid: 7f209ff4f968a214bbd62cc63a5c166b, type: 3}
+  - {fileID: 21300000, guid: 501850c6ff43378408c7c968aa88f246, type: 3}
+  - {fileID: 21300000, guid: d52685d411c18294388a4f804c30835f, type: 3}
+  - {fileID: 21300000, guid: a9904621954b4834492f7f3dfbdb2cd0, type: 3}
+  - {fileID: 21300000, guid: fee32d617ed644744b40c61f8936e7f4, type: 3}
+  - {fileID: 21300000, guid: f9a22272374706243b6dea8fa945118c, type: 3}
   - {fileID: 0}
+--- !u!95 &1789645824208272159
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4315712433120553336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8310c6eb8758e642bc6e1a94ee3b7bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

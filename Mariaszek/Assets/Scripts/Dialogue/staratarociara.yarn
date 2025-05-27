@@ -4,24 +4,24 @@ tags:
 <<freeze_player>>
 <<tarociara1 NPCS>>
 Starsza pani: Czego?
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda2 PCS>>
 Labuda: Nie chcemy przeszkadzać, ale może opowie nam coś pani o tym miejscu?
 <<fran2 PCS>>
 Fran: I tak nie mamy co robić.
-<<PC_blank PCS>>
+<<NPC_blank PCS>>
 <<tarociara1 NPCS>>
 Starsza pani: Hmm... Wiecie kochaniutcy, że takie informacje kosztują?
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Płacić za rozmowę? Bez przesady...
-<<PC_blank PCS>>
+<<NPC_blank PCS>>
 <<tarociara1 NPCS>>
 Starsza pani: Oj, niekoniecznie płacić. Zagrajcie ze starą kobietą w karty. Jak ze mną wygracie, opowiem wam parę sekretów tego młyna.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Karty? Oczywiście że tak! Tak dawno nie grałem z nikim w karty!
-<<PC_blank PCS>>
+<<NPC_blank PCS>>
 <<fade_camera>>
 Ekipa rozgrywa parę rundek w karty.
 W końcu wygrywają.
@@ -38,14 +38,14 @@ Starsza pani: Co chcecie wiedzieć?
     Starsza pani: Mówię wam, jeszcze parę lat temu żadnego problemu z nimi nie było.
     Starsza pani: A teraz, odkąd do Icberka przyjeżdza tak mało turystów, to się rozpanoszyły jak wściekłe. 
     Starsza pani: Kable przegryzają, plony wyżerają... Mówię wam, to nasza kara.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<nika2 PCS>>
 	Nika: kara?
     <<PC_blank PCS>>
     <<tarociara1 NPCS>>
     Starsza pani: Potężne siły, z którymi człowiek nie powinien zadzierać, ingerują w życie naszej wsi.
     Starsza pani: Miejcie się na baczności, żeby ich nie zdenerwować.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
 -> Kim pani jest?
 	<<tarociara1 NPCS>>
     Starsza pani: Służyłam w tej wsi jako medium.
@@ -57,7 +57,7 @@ Starsza pani: Co chcecie wiedzieć?
     <<tarociara1 NPCS>>
     Starsza pani: Dlaczegoby nie.
     Starsza pani: Karty mówią... Czeka was wielkie niebezpieczeństwo. Szansa, której nie można przepuścić, na dokonanie czegoś ważnego. Zagubienie, a także przypływ gotówki.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<ehir2 PCS>>
     Ehir: Hmmm... Nie wiem czy to dobrze czy nie.
     <<nika1 PCS>>
