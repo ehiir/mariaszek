@@ -29,25 +29,4 @@ public class SpriteChanger : MonoBehaviour
         sr.sprite = spriteArray[1];
         backgroundAnimation.SetTrigger("background2");
     }
-
-    [YarnCommand("bg3")]
-    public void ChangeSprite2()
-    {
-        sr.sprite = spriteArray[2];
-        backgroundAnimation.SetTrigger("background3");
-    }
-
-    [YarnCommand("bg4")]
-    public void ChangeSprite3()
-    {
-        sr.sprite = spriteArray[3];
-        backgroundAnimation.SetTrigger("background4");
-    }
-
-    [YarnCommand("bg5")]
-    public void ChangeSprite4()
-    {
-        sr.sprite = spriteArray[4];
-        backgroundAnimation.SetTrigger("background5");
-    }
 }

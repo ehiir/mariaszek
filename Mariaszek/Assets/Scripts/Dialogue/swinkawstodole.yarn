@@ -1,14 +1,18 @@
 ﻿title: swinkawstodole
 tags:
 ---
-<<fade_camera>>
+<<freeze_player>>
 <<ehir1 PCS>>
 Ehir: O, tam coś się rusza.
 <<fade_camera>>
-<<bg2 BG>>
+<<PC_blank PCS>>
+<<wait  2>>
+<<image4 BG>>
+<<fade_camera>>
 <<ehir1 PCS>>
 Ehir: Jaki słodziak!
 Ehir: Mówiłam wam, że mają mini zoo.
+<<ehir2 PCS>>
 Ehir: Hej świnko, jaka jesteś śliczna!
 <<nika1 PCS>>
 Nika: Jaki ma słodki wianeczek!
@@ -16,7 +20,7 @@ Nika: Jaki ma słodki wianeczek!
 Labuda: Trzeba bardzo lubić świnię, żeby jej wianki zaplatać... 
 <<ehir1 PCS>>
 Ehir: Ale nam patrzy w oczy. Pewnie chce nam przekazać telepatycznie, żeby go uwolnić.
-<<PCSblank PCS>>
+<<PC_blank PCS>>
 Świnka wydaje się zaciekawiona.
 <<ehir1 PCS>>
 Ehir: Odbijemy cię z tego więzienia, mały przyjacielu.
@@ -26,7 +30,10 @@ Fran: Jak tylko naprawimy samochód, pakujemy go do bagażnika.
 Labuda: Nie sądzicie że to trochę dziwne? Jakby był jakimś rytualnym zwierzakiem, że go tak stroją.
 <<nika1 PCS>>
 Nika: Może to po prostu czyjś zwierzaczek. Niektórzy ubierają swoje psy i w ogóle.
+<<PC_blank PCS>>
 <<fade_camera>>
 <<wait 2>>
-<<load_scene>>
+<<clear_bg BG>>
+<<defrost_player>>
+<<fade_camera>>
 ===

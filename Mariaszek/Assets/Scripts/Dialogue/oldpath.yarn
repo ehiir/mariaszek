@@ -1,8 +1,12 @@
 ﻿title: oldpath
 tags:
 ---
+<<freeze_player>>
 <<fade_camera>>
-<<bg2 BG>>
+<<wait 1>>
+<<image1 BG>>
+<<fade_camera>>
+<<wait 1>>
 <<nika2 PCS>>
 Nika: Chyba się zgubiliśmy...
 <<ehir1 PCS>>
@@ -22,11 +26,15 @@ Labuda: Spokojnie, pewnie stoi tu luzem od lat. Z resztą, nie widać żywej dus
 Labuda: Kiedyś z Fran chodziliśmy po opuszczonych budynkach, można było znaleźć fajne rzeczy. Stare butelki, listy...
 <<ehir1 PCS>>
 Ehir: Nawiedzone itemy! Ale super!
-<<labuda2 PCS>>
+<<labuda1 PCS>>
 Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się w takie sprawy, jasne?
+<<PC_blank PCS>>
 <<fade_camera>>
-<<bg2 BG>>
+<<wait 2>>
+<<image2 BG>>
 <<fade_camera>>
+<<wait 1>>
+<<labuda2 PCS>>
 Labuda: No i proszę, otwarte.
 <<nika1 PCS>>
 Nika: Nie wygląda jakby coś tu było. Tylko śmierdzi stęchlizną.
@@ -34,19 +42,25 @@ Nika: Nie wygląda jakby coś tu było. Tylko śmierdzi stęchlizną.
 Ehir: U mnie też nic.
 <<fran1 PCS>>
 Fran: Trzeba sprawdzić schowki i pod fotelami. 
+<<fran2 PCS>>
 Fran: O proszę, tutaj coś mamy.
 <<PC_blank PCS>>
 Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
-<<bg2 BG>>
+<<wait  1>>
+<<image3 BG>>
+<<wait 2>>
 <<fran2 PCS>>
 Fran: Chłopaki, nie podoba mi się to...
 <<ehir2 PCS>>
 Ehir: Co to? Wygląda jak... Oj, nie...
 <<labuda1 PCS>>
 Labuda: Zmywajmy się stąd. Jak najszybciej.
+<<PC_blank PCS>>
 <<fade_camera>>
-<<bg2 BG>>
+<<wait  2>>
+<<image1 BG>>
 <<fade_camera>>
+<<wait 1>>
 <<nika1 PCS>>
 Nika: Co tam było?
 <<labuda1 PCS>>
@@ -63,10 +77,13 @@ Ehir: Mamy udawać, że nic się nie stało?
 Labuda: Nie wiemy, dlaczego ktoś zostawił tak ważne rzeczy. Jeśli stało się coś złego, a ten kto to zrobił dalej jest gdzieś tutaj...
 <<fran2 PCS>>
 Fran: Wyjeżdzajmy stąd jak najszybciej. I nie rozdzielajmy się, pod żadnym pozorem.
+<<fran1 PCS>>
 Fran: Ani słowa, jasne?
 <<PC_blank PCS>>
 W milczeniu, wszyscy przytakują.
 <<fade_camera>>
 <<wait 2>>
-<<load_scene>>
+<<clear_bg BG>>
+<<defrost_player>>
+<<fade_camera>>
 ===
