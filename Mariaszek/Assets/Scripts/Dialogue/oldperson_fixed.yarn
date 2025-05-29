@@ -10,7 +10,7 @@ Old person: To nie do końca jest hotel, bardziej by powiedział, że restauracj
 Old person: Ale jak że pojedziecie tam do końca drogi, to już będzie widać. Taka duża chałupa, to ciężka pomylić.
 <<old2 NPCS>>
 Old person: A teraz mi już nie zawracać głowy.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<fran1 PCS>>
 -> Czemu tu nikogo nie ma? Nie widać żywej duszy.
     <<PC_blank PCS>>
@@ -18,13 +18,13 @@ Old person: A teraz mi już nie zawracać głowy.
     Ehir: Prawda, trochę strasznie...
     <<old1 NPCS>>
     Old person: Dzieko, ludzie dobrzy są teraz na polu. Orzą ziemię, trzodę karmią. 
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
 -> Co to w ogóle za miejsce?
     <<PC_blank PCS>>
     <<old1 NPCS>>
     Old person: Nasza wieś nazywa się Iceberk.
     Old person: Kiedyś się tu robiło mąkę na całą warmię, a teraz... Teraz się młodzi wyprowadzili. Nie ma komu robić.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: No dobra, jedźmy do tego mechanika, lepsze to niż nic.
 <<ehir1 PCS>>

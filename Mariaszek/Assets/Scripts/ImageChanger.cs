@@ -44,10 +44,24 @@ public class ImageChanger : MonoBehaviour
         backgroundAnimation.SetTrigger("background4");
     }
 
+    [YarnCommand("image5")]
+    public void ChangeSprite4()
+    {
+        img.sprite = spriteArray[4];
+        backgroundAnimation.SetTrigger("background5");
+    }
+
+    [YarnCommand("image6")]
+    public void ChangeSprite5()
+    {
+        img.sprite = spriteArray[5];
+        backgroundAnimation.SetTrigger("background6");
+    }
+
     [YarnCommand("clear_bg")]
     public void ClearBG()
     {
-        img.sprite = spriteArray[4];
+        img.sprite = spriteArray[6];
         backgroundAnimation.SetTrigger("clear");
     }
 }
