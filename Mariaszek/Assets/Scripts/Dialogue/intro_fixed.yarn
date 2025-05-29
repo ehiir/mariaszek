@@ -32,7 +32,7 @@ Fran: No dobra, jedźmy...
 <<fade_camera>>
 <<wait 2>>
 <<play_music>>
-<<wait 1>>
+<<wait 2>>
 <<fade_camera>>
 <<play_video>>
 <<wait 1>>
@@ -67,12 +67,7 @@ Nika: Dobrze, ale jest tu gdzieś mechanik? Mamy problem z samochodem, a musimy 
 Starsza osoba: Mechanik... Tak, dzieci, mamy tutaj kogoś takiego. Jest obok naszego hotelu, tam zaraz na końcu drogi.
 Starsza osoba: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat. 
 Starsza osoba: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
-<<fade_camera>>
 <<NPC_blank NPCS>>
-<<wait 2>>
-<<fade_camera>>
-<<next_video>>
-<<wait  29>>
 <<fade_camera>>
 <<wait 2>>
 <<load_scene>>

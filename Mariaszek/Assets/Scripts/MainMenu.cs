@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string sceneName;
-
     void Start()
     {
         Time.timeScale = 1f;
@@ -14,11 +12,31 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(sceneName);
+        StartCoroutine(FadeBeforeTransition(1));
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        StartCoroutine(FadeBeforeTransition(-1));
+    }
+
+    private IEnumerator FadeBeforeTransition(int sceneIndex)
+    {
+        CameraFade.Instance.TriggerFade();
+
+        while (CameraFade.Instance.IsFading())
+        {
+            yield return null;
+        }
+
+        if (sceneIndex >= 0)
+        {
+            SceneManager.LoadScene(sceneIndex);
+        }
+
+        else
+        {
+            Application.Quit();
+        }
     }
 }

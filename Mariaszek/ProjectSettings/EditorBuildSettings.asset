@@ -23,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HOTEL LOBBY.unity
     guid: ce84c3f37dc2c7c41bc3abaea2d7beb2
-  - enabled: 0
-    path: Assets/Scenes/GhostyLads.unity
-    guid: b7e9d8763e27249718d5669ca71a9f10
   m_configObjects: {}

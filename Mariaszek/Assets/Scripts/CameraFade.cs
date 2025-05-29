@@ -1,22 +1,20 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraFade : MonoBehaviour
 {
-    public static CameraFade Instance; 
+    public static CameraFade Instance;
 
-    public float speedScale = 1f;
-    public Color fadeColor = Color.black;
+    public float speedScale;
+    private bool fade = false;
+    public bool isFading = false;
+
     public AnimationCurve Curve = new AnimationCurve(new Keyframe(0, 1),
     new Keyframe(0.5f, 0.5f, -1.5f, -1.5f), new Keyframe(1, 0));
-    public bool startFadedOut = false;
-    public bool fade = false;
-
-    private float alpha = 1f; 
+    public Color fadeColor = Color.black;
+    private float alpha = 1f, time = 0f;
     private Texture2D texture;
     private int direction = 0;
-    private float time = 0f;
 
     void Awake()
     {
@@ -33,8 +31,6 @@ public class CameraFade : MonoBehaviour
 
     void Start()
     {
-        //if (startFadedOut) alpha = 1f; else alpha = 0f;
-
         alpha = 1f;
         time = 0f;
         direction = 1;
@@ -46,26 +42,30 @@ public class CameraFade : MonoBehaviour
 
     void Update()
     {
-        if (direction == 0 && fade == true)
+        if (fade)
         {
-            if (alpha >= 1f) // Fully faded out
+            if (direction == 0)
             {
-                alpha = 1f;
-                time = 0f;
-                direction = 1;
+                if (alpha >= 1f)
+                {
+                    alpha = 1f;
+                    time = 0f;
+                    direction = 1;
 
-                fade = false;
+                    fade = false;
+                    isFading = false;
+                }
+
+                else if (alpha == 0)
+                {
+                    alpha = 0f;
+                    time = 1f;
+                    direction = -1;
+
+                    fade = false;
+                    StartCoroutine(WaitBeforeFade());
+                }
             }
-
-            else if (alpha == 0) // Fully faded in
-            {
-                alpha = 0f;
-                time = 1f;
-                direction = -1;
-
-                fade = false;
-            }
-                 
         }
     }
 
@@ -87,5 +87,26 @@ public class CameraFade : MonoBehaviour
     public void TriggerFade()
     {
         fade = true;
+        isFading = true;
+
+        direction = -1;
+        time = 1f;
+    }
+
+    public bool IsFadingComplete()
+    {
+        return alpha <= 0f;
+    }
+
+    public bool IsFading()
+    {
+        return isFading;
+    }
+
+    private IEnumerator WaitBeforeFade()
+    {
+        yield return new WaitForSeconds(1.5f);
+
+        isFading = false;
     }
 }

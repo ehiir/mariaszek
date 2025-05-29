@@ -46,7 +46,7 @@ public class StoryCharacters : MonoBehaviour
         Debug.Log("Mareczek2 na ekranie");
     }
 
-    [YarnCommand("detektyw2")]
+    [YarnCommand("detektyw1")]
     public void ChangeSprite13()
     {
         sr.sprite = spriteArray[4];

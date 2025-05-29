@@ -6,11 +6,10 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
-   
+
     // [SerializeField] AudioSource music;
     public bool isPaused;
     public bool canPause;
-    public string sceneName;
 
     void Start()
     {
@@ -56,6 +55,21 @@ public class Pause : MonoBehaviour
 
     public void ExitGame()
     {
-        SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f;
+        StartCoroutine(FadeBeforeTransition(0));
+    }
+    
+    private IEnumerator FadeBeforeTransition(int sceneIndex)
+    {
+        Time.timeScale = 1f;
+        
+        CameraFade.Instance.TriggerFade();
+
+        while (CameraFade.Instance.IsFading())
+        {
+            yield return null;
+        }
+
+        SceneManager.LoadScene(sceneIndex);
     }
 }
