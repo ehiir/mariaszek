@@ -5,8 +5,7 @@ tags:
 <<fade_camera>>
 <<wait 1>>
 <<image1 BG>>
-<<fade_camera>>
-<<wait 1>>
+<<wait 4>>
 <<nika2 PCS>>
 Nika: Chyba się zgubiliśmy...
 <<ehir1 PCS>>
@@ -29,11 +28,9 @@ Ehir: Nawiedzone itemy! Ale super!
 <<labuda1 PCS>>
 Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się w takie sprawy, jasne?
 <<PC_blank PCS>>
-<<fade_camera>>
-<<wait 2>>
 <<image2 BG>>
 <<fade_camera>>
-<<wait 1>>
+<<wait 2>>
 <<labuda2 PCS>>
 Labuda: No i proszę, otwarte.
 <<nika1 PCS>>
@@ -47,6 +44,7 @@ Fran: O proszę, tutaj coś mamy.
 <<PC_blank PCS>>
 Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
 <<wait  1>>
+<<fade_camera>>
 <<image3 BG>>
 <<wait 2>>
 <<fran2 PCS>>
@@ -57,10 +55,8 @@ Ehir: Co to? Wygląda jak... Oj, nie...
 Labuda: Zmywajmy się stąd. Jak najszybciej.
 <<PC_blank PCS>>
 <<fade_camera>>
-<<wait  2>>
 <<image1 BG>>
-<<fade_camera>>
-<<wait 1>>
+<<wait 3>>
 <<nika1 PCS>>
 Nika: Co tam było?
 <<labuda1 PCS>>

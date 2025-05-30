@@ -4,21 +4,21 @@ tags:
 <<freeze_player>>
 <<bartow1 NPCS>>
 Mężczyzna w milczeniu czyta książkę.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Ale super wygląda...
 Ehir: Może on będzie coś wiedzieć? Wygląda jakby znał się na rzeczy.
 Ehir: Przepraszam, możesz nam coś opowiedzieć o tym hotelu?
 <<bartow1 NPCS>>
 Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<ehir2 PCS>>
 -> Przejazdem? Masz samochód?
     <<PC_blank PCS>>
     <<bartow2 NPCS>>
     Bartold: Nie do końca. 
     Bartold: Zostałem tu wysłany, a moja drużyna odbiera mnie dopiero za parę dni.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<ehir2 PCS>>
     Ehir: Szkoda. Zepsuło nam się auto i utknęliśmy tu do czasu, aż nie wróci mechanik...
     <<PC_blank PCS>>
@@ -26,7 +26,7 @@ Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
     Bartold: Przykra sprawa.
     Bartold: Nie powinno was to dotyczyć, ale na wszelki wypadek... Uważajcie na siebie. 
     Bartold: Nie wydają się tu zbyt przyjaźnie nastawieni do obcych.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<ehir2 PCS>>
     Ehir: Dla nas byli bardzo sympatyczni... To ciekawe.
     <<PC_blank PCS>>
@@ -40,7 +40,7 @@ Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
     Bartold: Ale na razie nie mogę wam powiedzieć nic więcej niż to, że cała wieś wydaje się być skupiona wokół tej świnki, która ma na sobie wianek. 
     Bartold: We wsi, w domach mają nawet jej malowane wizerunki oprawione w ramkę. Do tego stodoła położona jest idealnie na puncie zbiegu południka z równoleżnikiem, coś w rodzaju trójkąta bermudzkiego.
     Bartold: Jeśli was to ciekawi, przyjdźcie do mnie za jakiś czas. Wtedy powinienem wiedzieć więcej.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
 <<ehir1 PCS>>
 Ehir: Dzięki!
 <<labuda1 PCS>>

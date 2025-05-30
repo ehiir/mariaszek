@@ -4,11 +4,9 @@ tags:
 <<freeze_player>>
 <<ehir1 PCS>>
 Ehir: O, tam coś się rusza.
-<<fade_camera>>
+<<image4 BG>>
 <<PC_blank PCS>>
 <<wait  2>>
-<<image4 BG>>
-<<fade_camera>>
 <<ehir1 PCS>>
 Ehir: Jaki słodziak!
 Ehir: Mówiłam wam, że mają mini zoo.
@@ -35,5 +33,4 @@ Nika: Może to po prostu czyjś zwierzaczek. Niektórzy ubierają swoje psy i w 
 <<wait 2>>
 <<clear_bg BG>>
 <<defrost_player>>
-<<fade_camera>>
 ===

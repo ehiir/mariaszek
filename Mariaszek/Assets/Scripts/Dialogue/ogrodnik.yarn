@@ -12,13 +12,13 @@ Labuda: Przepraszam pana...
 Staruszek wygląda na podirytowanego.
 <<old2 NPCS>>
 Old person: Czego chcecie?
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda2 PCS>>
 -> Wie pan, gdzie możemy znaleźć mechanika?
     <<PC_blank PCS>>
     <<old1 NPCS>>
     Old person: Ja nie wie. Idźcie na recepcję, to wam ino Teresa powie.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<labuda2 PCS>>
 	-> Gdzie jest ta recepcja?
     		<<PC_blank PCS>>
@@ -28,7 +28,7 @@ Old person: Czego chcecie?
 		    Ogrodnik mruczy pod nosem, zdenerwowany.
 		    <<ehir2 PCS>>
 		    Ehir: *Szeptem* Widać że wieś. Dopiero przyjechaliśmy i już dostajemy zadania.
-    		<<Old_blank NPCS>>
+    		<<NPC_blank NPCS>>
 -> Co pan robi?
     <<PC_blank PCS>>
     <<old2 NPCS>>
@@ -39,7 +39,7 @@ Old person: Czego chcecie?
     		<<old2 NPCS>>
     		Old person: Takie wielkie, żem się aż przestraszył jak mi taki wyskoczył.
 		    Old person: Próbowaliżeśmy pułapek, trutek, a one nic. Tylko się wydaje że się mnożą jak szalone. 
-		    <<Old_blank NPCS>>
+		    <<NPC_blank NPCS>>
 		    <<nika2 PCS>>
 		    Nika: Przykra sprawa... Ale ogródek bardzo ładny.
 		    <<PC_blank PCS>>	
@@ -49,7 +49,7 @@ Old person: Czego chcecie?
     Old person: Pewnie żeście widzieli mojego brata.
     <<old2 NPCS>>
     Old person: Siedzi tylko na ławce przy drodze i zagaduje przejezdnych. Do roboty by się wziął.
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<ehir2 PCS>>
     Ehir: Ulala, rodzinny konflikt.
     <<PC_blank PCS>>

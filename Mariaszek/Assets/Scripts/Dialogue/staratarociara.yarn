@@ -9,7 +9,7 @@ Starsza pani: Czego?
 Labuda: Nie chcemy przeszkadzać, ale może opowie nam coś pani o tym miejscu?
 <<fran2 PCS>>
 Fran: I tak nie mamy co robić.
-<<NPC_blank PCS>>
+<<NPC_blank NPCS>>
 <<tarociara1 NPCS>>
 Starsza pani: Hmm... Wiecie kochaniutcy, że takie informacje kosztują?
 <<NPC_blank NPCS>>

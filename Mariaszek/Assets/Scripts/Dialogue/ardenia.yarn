@@ -5,7 +5,7 @@ tags:
 <<Ardenia1 NPCS>>
 Ardenia: Świnko... Świnko... Kicikicikici... 
 Ardenia: Gdzie jesteś maleńka? Pokaż się...
-<<XXXXX_blank NPCS>>
+<<NPC_blank NPCS>>
 <<Nika1 PCS>>
 Nika: *Szeptem* Jaka śliczna...
 <<fran2 PCS>>
@@ -15,7 +15,7 @@ Nika: *Szeptem* Jaka śliczna...
     Ardenia: Szukam świnki. 
     <<Ardenia2 NPCS>>
     Ardenia: Bądźcie cicho, bo ją spłoszycie.
-    <<XXXXX_blank NPCS>>
+    <<NPC_blank NPCS>>
 -> Mówisz o tej śwince, którą widzieliśmy w stodole? Tej z kwiatkami? <<if $seenpig > 0>>
     <<PC_blank PCS>>
     <<Ardenia2 NPCS>>
@@ -24,7 +24,7 @@ Nika: *Szeptem* Jaka śliczna...
     Ardenia: Czasami ją słyszę. Ale trzeba bardzo uważnie słuchać.
     Ardenia: Raz nawet ją widziałam. Poszłam za nią, ale zniknęła, jak wyszłam z hotelu...
     Ardenia: Chyba chce mi coś powiedzieć...
-    <<XXXXX_blank NPCS>>
+    <<NPC_blank NPCS>>
 <<Labuda1 PCS>>
 Labuda: To było... Dziwne.
 <<ehir1 PCS>>

@@ -10,7 +10,7 @@ Labuda: Przepraszam najmocniej..
 <<PC_blank PCS>>
 <<HotelOwner1 NPCS>>
 ???: Oh, wybaczcie. Witam serdecznie. Zaraz sprawdzimy państwa rezerwację. Proszę, zaprowadzę was do środka. 
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda2 PCS>>
 Labuda: Nie mamy rezerwacji, właściwie to my tu tak tylko przejazdem. Widzi pani, mamy taki problem, że nasze auto się zepsuło na trasie...
 <<fran1 PCS>> 
@@ -21,14 +21,14 @@ Fran: Szukamy mechanika. We wiosce powiedzieli nam, że możemy go tu znaleźć.
 <<HotelOwner2 NPCS>>
 ???: Mechanik... Obawiam się, że chwilowo nie mogę wam pomóc.
 ???: Nasz specjalista właśnie wyjechał na urlop.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Wiadomo, kiedy wróci?
 <<PC_blank PCS>>
 <<HotelOwner2 NPCS>>
 ???: Niestety nie.
 ???: Widzicie, nasz Antoni ma w zwyczaju wyjeżdzać na ryby, a taka wycieczka może trwać od dwóch do pięciu dni, w zależności, jak bardzo zmęczy go... Połów ryb.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<PC_blank PCS>>
 <<ehir1 PCS>>
 Ehir: Chyba rozumiemy. Co za pech.
@@ -37,7 +37,7 @@ Ehir: Nie ma tu kogoś w okolicy, kto mógłby pomóc nam naprawić auto? To pew
 <<HotelOwner2 NPCS>>
 ???: Najbliższy warsztat samochodowy, z tego co się orientuję jest dopiero w mieście. 
 ???: To około godziny drogi, jeśli nie więcej. Okolica to głównie lasy i jeziora, prawdę mówiąc. Do najbliższej wioski też jest spory kawałek.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda1 PCS>>
 Labuda: Nie ma mowy że tak daleko zajedziemy. 
 <<nika1 PCS>>
@@ -50,7 +50,7 @@ Fran: Rzeczywiście, ja tak samo. To internetu to tu nie ma na pewno.
 <<PC_blank PCS>>
 <<HotelOwner2 NPCS>>
 ???: Mariaszek jest w środku starej strefy ochrony środowiska, dlatego nie mamy tutaj słupów telekomunikacyjnych. Szkodzą przyrodzie i zdrowiu.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda1 PCS>>
 Labuda: Cholera, co teraz...
 <<fran1 PCS>>
@@ -63,13 +63,13 @@ Ehir: No nieźle. W dziurze na końcu świata, bez internetu i samochodu.
 <<HotelOwner1 NPCS>>
 ???: Ale mogę wykonać parę telefonów i zobaczę, co mogę dla was zrobić. Nasz mechanik to dobry człowiek. Powinien wrócić wcześniej, skoro jest taka potrzeba.
 ???: Podejrzewam, że nie macie się gdzie zatrzymać na noc... Chętnie użyczę wam pokoju w naszym hotelu. 
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda2 PCS>>
 Labuda: Bardzo miło z pani strony, ale chyba nie mamy pieniędzy...
 <<PC_blank PCS>>
 <<HotelOwner2 NPCS>>
 ???: Oh, nie, to na koszt firmy. Trzeba sobie pomagać w potrzebie. 
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 <<labuda2 PCS>>
 Labuda: Na pewno? Nie chcemy robić kłopotu...
 <<fran2 PCS>>
@@ -80,7 +80,7 @@ Fran: W sumie to nie mamy innych opcji.
 ???: Zapraszam do środka, nie krępujcie się.
 ???: Chwilę zajmą nam formalności i telefon do mechanika, dlatego zajrzyjcie na recepcję za jakiś czas.
 ???: A teraz, przepraszam was.
-<<Old_blank NPCS>>
+<<NPC_blank NPCS>>
 Starsza kobieta odchodzi.
 <<fran1 PCS>>
 Fran: Całkiem miło...

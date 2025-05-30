@@ -94,10 +94,26 @@ public class StoryCharacters : MonoBehaviour
         Debug.Log("Ardenia2 na ekranie");
     }
 
-    [YarnCommand("NPC_blank")]
+    [YarnCommand("HotelOwner1")]
     public void ChangeSprite19()
     {
         sr.sprite = spriteArray[10];
+        dialogueAnimation.SetTrigger("HotelOwner1"); 
+        Debug.Log("HotelOwner1 na ekranie");
+    }
+
+    [YarnCommand("HotelOwner2")]
+    public void ChangeSprite20()
+    {
+        sr.sprite = spriteArray[11];
+        dialogueAnimation.SetTrigger("HotelOwner2"); 
+        Debug.Log("HotelOwner2 na ekranie");
+    }
+
+    [YarnCommand("NPC_blank")]
+    public void ChangeSprite21()
+    {
+        sr.sprite = spriteArray[12];
         dialogueAnimation.SetTrigger("Blank"); 
         Debug.Log("Nic na ekranie");
     }

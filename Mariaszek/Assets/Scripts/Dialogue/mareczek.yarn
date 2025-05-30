@@ -8,45 +8,45 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
     <<PC_blank PCS>>
     <<mareczek1 NPCS>>
     Mareczek: Bzzz... Skkkkkk...
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     Mareczek entuzjastycznie przykręca śrubki do dziwnego urządzenia.
     <<nika2 PCS>>
     Nika: ...
     <<fran2 PCS>>
     Fran: Hej, mały, mówimy do ciebie.
-    <<PC_blank PCS>>
+    <<NPC_blank NPCS>>
     <<mareczek1 NPCS>>
     //tutaj albo gra w karty albo nie
     Mareczek: O, dzień dobry!
     Mareczek: Buduję pułapkę na chochliki!
-    <<Old_blank NPCS>>
+    <<NPC_blank NPCS>>
     <<nika2 PCS>>
 	-> Jakie chochliki?
 		<<PC_blank PCS>>
 		<<mareczek1 NPCS>>
 		Mareczek: Te, co nam zjadają kwiatki.
-		<<Old_blank NPCS>>
+		<<NPC_blank NPCS>>
 		<<nika2 PCS>>
 		Nika: Mówisz o kretach?
 		<<mareczek2 NPCS>>
 		Mareczek: To nie są krety! Widziałem sam! Miały rogi i takie wielkie zębiska!
 		Mareczek: Muszę je złapać, bo inaczej zjedzą nam wszystkie rabatki.
 		Mareczek: A potem zjedzą mnie.
-		<<Old_blank NPCS>>
+		<<NPC_blank NPCS>>
 		<<labuda2 PCS>>
 		Labuda: Może to tylko twoja wyobraźnia?
 		Labuda: Jak byłem mały, też myślałem że mewy mogą mnie porwać na środek morza.
 		<<PC_blank PCS>>
 		<<mareczek2 NPCS>>
 		Mareczek: Nieprawda! To były chochliki! Sam widziałem!
-		<<Old_blank NPCS>>
+		<<NPC_blank NPCS>>
 		<<fran2 PCS>>
 		Fran: Chyba go nie przekonasz...
 -> To ty jesteś Mareczek? <<if $talkogrodnik > 0>>
 	<<PC_blank PCS>>
 	<<mareczek1 NPCS>>
 	Mareczek: Skąd wiecie, jak się nazywam?
-	<<Old_blank NPCS>>
+	<<NPC_blank NPCS>>
 	<<fran2 PCS>>
 	Fran: Ogrodnik nam powiedział. Szukał cię.
 	<<PC_blank PCS>>
@@ -55,7 +55,7 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 	Mareczek: Nie mówcie mu że tu jestem, to...
 	<<mareczek1 NPCS>>
 	Mareczek: Wiem! Pokażę wam chochlika którego złapałem!
-	<<Old_blank NPCS>>
+	<<NPC_blank NPCS>>
 <<PC_blank PCS>>
 <<defrost_player>>
 ===
