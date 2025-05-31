@@ -14,7 +14,7 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
     Nika: ...
     <<fran2 PCS>>
     Fran: Hej, mały, mówimy do ciebie.
-    <<NPC_blank NPCS>>
+    <<PC_blank PCS>>
     <<mareczek1 NPCS>>
     //tutaj albo gra w karty albo nie
     Mareczek: O, dzień dobry!
@@ -28,6 +28,7 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 		<<NPC_blank NPCS>>
 		<<nika2 PCS>>
 		Nika: Mówisz o kretach?
+		<<PC_blank PCS>>
 		<<mareczek2 NPCS>>
 		Mareczek: To nie są krety! Widziałem sam! Miały rogi i takie wielkie zębiska!
 		Mareczek: Muszę je złapać, bo inaczej zjedzą nam wszystkie rabatki.
