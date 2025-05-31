@@ -3,7 +3,6 @@ tags:
 ---
 <<freeze_player>>
 <<HotelOwner1 NPCS>>
-<<wait  1>>
 Właścicielka hotelu: Witajcie.
 <<NPC_blank NPCS>>
 <<labuda1 PCS>>

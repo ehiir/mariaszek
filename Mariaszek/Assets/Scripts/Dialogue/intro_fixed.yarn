@@ -30,11 +30,9 @@ Labuda: Chyba nie mamy wyboru, w tym stanie za daleko nie zajedziemy.
 Fran: No dobra, jedźmy...
 <<PC_blank PCS>>
 <<fade_camera>>
-<<wait 2>>
+<<wait  1.5>>
 <<play_music>>
-<<wait 2>>
-<<fade_camera>>
-<<play_video>>
+<<next_video>>
 <<wait 1>>
 <<nika2 PCS>>
 Nika: Wygląda jak koniec świata. Widzicie tu kogoś, kogo możemy spytać o pomoc?

@@ -4,8 +4,10 @@ tags:
 <<freeze_player>>
 <<ehir1 PCS>>
 Ehir: O, tam coś się rusza.
-<<image4 BG>>
 <<PC_blank PCS>>
+<<fade_camera>>
+<<wait  1.5>>
+<<image4 BG>>
 <<wait  2>>
 <<ehir1 PCS>>
 Ehir: Jaki słodziak!

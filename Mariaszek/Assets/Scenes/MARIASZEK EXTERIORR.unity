@@ -14551,7 +14551,7 @@ PrefabInstance:
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.02
+      value: -0.98
       objectReference: {fileID: 0}
     - target: {fileID: 213893454597688043, guid: ddf0f0aa7251b324eb50882e8043647f,
         type: 3}
@@ -14878,7 +14878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18615,7 +18615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedScale: 0.3
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  isFading: 0
   Curve:
     serializedVersion: 2
     m_Curve:
@@ -18649,8 +18649,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  startFadedOut: 0
-  fade: 0
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1093955967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18666,7 +18665,6 @@ MonoBehaviour:
   pauseMenu: {fileID: 1954594520}
   isPaused: 0
   canPause: 0
-  sceneName: MAIN MENU
 --- !u!114 &1093955968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23898,7 +23896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

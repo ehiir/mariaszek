@@ -57,6 +57,5 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 	<<mareczek1 NPCS>>
 	Mareczek: Wiem! Pokażę wam chochlika którego złapałem!
 	<<NPC_blank NPCS>>
-<<PC_blank PCS>>
 <<defrost_player>>
 ===

@@ -3,9 +3,9 @@ tags:
 ---
 <<freeze_player>>
 <<fade_camera>>
-<<wait 1>>
+<<wait  1>>
 <<image1 BG>>
-<<wait 4>>
+<<wait 2>>
 <<nika2 PCS>>
 Nika: Chyba się zgubiliśmy...
 <<ehir1 PCS>>
@@ -19,17 +19,18 @@ Nika: Niby nikt rozsądny by tu nie zaglądał, ale większość wraków stoi za
 Fran: Zobaczymy, co jest w środku?
 <<nika2 PCS>>
 Nika: Do środka? Nie przesadzasz?
-<<labuda2 PCS>>
-Labuda: Spokojnie, pewnie stoi tu luzem od lat. Z resztą, nie widać żywej duszy.
 <<labuda1 PCS>>
+Labuda: Spokojnie, pewnie stoi tu luzem od lat. Z resztą, nie widać żywej duszy.
+<<labuda2 PCS>>
 Labuda: Kiedyś z Fran chodziliśmy po opuszczonych budynkach, można było znaleźć fajne rzeczy. Stare butelki, listy...
 <<ehir1 PCS>>
 Ehir: Nawiedzone itemy! Ale super!
 <<labuda1 PCS>>
 Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się w takie sprawy, jasne?
 <<PC_blank PCS>>
-<<image2 BG>>
 <<fade_camera>>
+<<wait  1.5>>
+<<image2 BG>>
 <<wait 2>>
 <<labuda2 PCS>>
 Labuda: No i proszę, otwarte.
@@ -44,7 +45,6 @@ Fran: O proszę, tutaj coś mamy.
 <<PC_blank PCS>>
 Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
 <<wait  1>>
-<<fade_camera>>
 <<image3 BG>>
 <<wait 2>>
 <<fran2 PCS>>
@@ -55,8 +55,9 @@ Ehir: Co to? Wygląda jak... Oj, nie...
 Labuda: Zmywajmy się stąd. Jak najszybciej.
 <<PC_blank PCS>>
 <<fade_camera>>
+<<wait  1.5>>
 <<image1 BG>>
-<<wait 3>>
+<<wait 2>>
 <<nika1 PCS>>
 Nika: Co tam było?
 <<labuda1 PCS>>
@@ -81,5 +82,4 @@ W milczeniu, wszyscy przytakują.
 <<wait 2>>
 <<clear_bg BG>>
 <<defrost_player>>
-<<fade_camera>>
 ===
