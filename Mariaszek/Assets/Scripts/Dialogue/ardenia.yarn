@@ -2,30 +2,32 @@
 tags:
 ---
 <<freeze_player>>
-<<Ardenia1 NPCS>>
+<<ardenia2 NPCS>>
 Ardenia: Świnko... Świnko... Kicikicikici... 
 Ardenia: Gdzie jesteś maleńka? Pokaż się...
 <<NPC_blank NPCS>>
-<<Nika1 PCS>>
+<<nika1 PCS>>
 Nika: *Szeptem* Jaka śliczna...
 <<fran2 PCS>>
 -> Co robisz?
     <<PC_blank PCS>>
-    <<Ardenia1 NPCS>>
+    <<ardenia2 NPCS>>
     Ardenia: Szukam świnki. 
-    <<Ardenia2 NPCS>>
+    <<ardenia1 NPCS>>
     Ardenia: Bądźcie cicho, bo ją spłoszycie.
     <<NPC_blank NPCS>>
--> Mówisz o tej śwince, którą widzieliśmy w stodole? Tej z kwiatkami? <<if $seenpig > 0>>
+    <<wait  2>>
+-> Mówisz o tej śwince, którą widzieliśmy w stodole? Tej z kwiatkami?
     <<PC_blank PCS>>
-    <<Ardenia2 NPCS>>
+    <<ardenia1 NPCS>>
     Ardenia: Nie. 
     Ardenia: O tej tutaj, w hotelu.
     Ardenia: Czasami ją słyszę. Ale trzeba bardzo uważnie słuchać.
     Ardenia: Raz nawet ją widziałam. Poszłam za nią, ale zniknęła, jak wyszłam z hotelu...
     Ardenia: Chyba chce mi coś powiedzieć...
     <<NPC_blank NPCS>>
-<<Labuda1 PCS>>
+    <<wait  2>>>>
+<<labuda1 PCS>>
 Labuda: To było... Dziwne.
 <<ehir1 PCS>>
 Ehir: Dreszcze mnie przeszły.

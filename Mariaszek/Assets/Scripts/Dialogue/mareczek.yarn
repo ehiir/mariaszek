@@ -43,6 +43,7 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 		<<NPC_blank NPCS>>
 		<<fran2 PCS>>
 		Fran: Chyba go nie przekonasz...
+		<<PC_blank PCS>>
 -> To ty jesteś Mareczek? <<if $talkogrodnik > 0>>
 	<<PC_blank PCS>>
 	<<mareczek1 NPCS>>

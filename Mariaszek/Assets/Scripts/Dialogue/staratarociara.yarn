@@ -2,6 +2,7 @@
 tags:
 ---
 <<freeze_player>>
+<<wait  3>>
 <<tarociara1 NPCS>>
 Starsza pani: Czego?
 <<NPC_blank NPCS>>
@@ -9,32 +10,32 @@ Starsza pani: Czego?
 Labuda: Nie chcemy przeszkadzać, ale może opowie nam coś pani o tym miejscu?
 <<fran2 PCS>>
 Fran: I tak nie mamy co robić.
-<<NPC_blank NPCS>>
+<<PC_blank PCS>>
 <<tarociara1 NPCS>>
 Starsza pani: Hmm... Wiecie kochaniutcy, że takie informacje kosztują?
 <<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Płacić za rozmowę? Bez przesady...
-<<NPC_blank PCS>>
+<<PC_blank PCS>>
 <<tarociara1 NPCS>>
 Starsza pani: Oj, niekoniecznie płacić. Zagrajcie ze starą kobietą w karty. Jak ze mną wygracie, opowiem wam parę sekretów tego młyna.
 <<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Karty? Oczywiście że tak! Tak dawno nie grałem z nikim w karty!
-<<NPC_blank PCS>>
+<<PC_blank PCS>>
 <<fade_camera>>
-Ekipa rozgrywa parę rundek w karty.
-W końcu wygrywają.
-<<fade_camera>>
+<<wait  2>>
+Narrator:Ekipa rozgrywa parę rundek w karty.
+Narrator:W końcu wygrywają.
 <<tarociara1 NPCS>>
 Starsza pani: No, nie spodziewałam się, że tak dobrze wam pójdzie.
 Starsza pani: Co chcecie wiedzieć?
 -> O co chodzi z epidemią kretów?
-    <<tarociara1 NPCS>>
-    Starsza pani: Kretów... 
     <<tarociara2 NPCS>>
+    Starsza pani: Kretów... 
     Starsza pani: Jakich tam kretów!
     Starsza pani: To żadne krety, a prawdziwe demony z piekła rodem.
+    <<tarociara1 NPCS>>
     Starsza pani: Mówię wam, jeszcze parę lat temu żadnego problemu z nimi nie było.
     Starsza pani: A teraz, odkąd do Icberka przyjeżdza tak mało turystów, to się rozpanoszyły jak wściekłe. 
     Starsza pani: Kable przegryzają, plony wyżerają... Mówię wam, to nasza kara.
@@ -51,6 +52,7 @@ Starsza pani: Co chcecie wiedzieć?
     Starsza pani: Służyłam w tej wsi jako medium.
     <<tarociara2 NPCS>>
     Starsza pani: Teraz ludzie wierzą tylko w racjonalność, internet...
+    <<NPC_blank NPCS>>
     <<ehir1 PCS>>
 	Ehir: Przeczyta nam pani tarota?
     <<PC_blank PCS>>
