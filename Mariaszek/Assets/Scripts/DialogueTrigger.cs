@@ -21,6 +21,7 @@ public class DialogueTrigger : MonoBehaviour
     public bool podmechanikiem = false;
     public bool hotelowner = false;
     public bool swinka = false;
+    public bool ogrodnik = false;
 
     void Update()
     {
@@ -93,6 +94,11 @@ public class DialogueTrigger : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.E) && swinka == true)
         {
            dialogueRunner.StartDialogue("swinkawstodole");
+        }
+
+         if (Input.GetKeyDown(KeyCode.E) && ogrodnik == true)
+        {
+           dialogueRunner.StartDialogue("Ogrodnik");
         }
     }
 
@@ -168,6 +174,11 @@ public class DialogueTrigger : MonoBehaviour
         {
             swinka = true;
         }
+
+        if (other.tag == "Ogrodnik")
+        {
+            ogrodnik = true;
+        }
     }
 
     void OnTriggerExit (Collider other)
@@ -235,6 +246,12 @@ public class DialogueTrigger : MonoBehaviour
         if (other.tag == "Swinka")
         {
             swinka = false;
+        }
+
+        
+        if (other.tag == "Ogrodnik")
+        {
+            ogrodnik = false;
         }
     }
 }

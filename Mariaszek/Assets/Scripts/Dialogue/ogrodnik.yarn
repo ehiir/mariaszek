@@ -13,7 +13,6 @@ Staruszek wygląda na podirytowanego.
 <<old2 NPCS>>
 Old person: Czego chcecie?
 <<NPC_blank NPCS>>
-<<labuda2 PCS>>
 -> Wie pan, gdzie możemy znaleźć mechanika?
     <<PC_blank PCS>>
     <<old1 NPCS>>
