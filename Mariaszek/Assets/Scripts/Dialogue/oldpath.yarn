@@ -47,11 +47,11 @@ Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
 <<wait  1>>
 <<image3 BG>>
 <<wait 2>>
-<<fran2 PCS>>
+<<fran3 PCS>>
 Fran: Chłopaki, nie podoba mi się to...
-<<ehir2 PCS>>
+<<ehir3 PCS>>
 Ehir: Co to? Wygląda jak... Oj, nie...
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Zmywajmy się stąd. Jak najszybciej.
 <<PC_blank PCS>>
 <<fade_camera>>
@@ -62,7 +62,7 @@ Labuda: Zmywajmy się stąd. Jak najszybciej.
 Nika: Co tam było?
 <<labuda1 PCS>>
 Labuda: Paszporty. Wszystkie ważne dokumenty, portfele... I stary telefon.
-<<nika1 PCS>>
+<<nika3 PCS>>
 Nika: O cholera... Nikt nie zostawiłby takich rzeczy w samochodzie, chyba że...
 <<fran2 PCS>>
 Fran: Chyba że coś się z nim stało.

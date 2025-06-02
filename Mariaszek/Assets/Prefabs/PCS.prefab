@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 803183604519125397}
   - component: {fileID: 2394301664008324787}
   - component: {fileID: 2921578458777796556}
+  - component: {fileID: 7064214464717545817}
   m_Layer: 0
   m_Name: PCS
   m_TagString: Untagged
@@ -118,3 +119,24 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   shadow: {fileID: 0}
+--- !u!95 &7064214464717545817
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4229028611812093444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f6154233de8d1e40a9c0bad1bbec4bc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

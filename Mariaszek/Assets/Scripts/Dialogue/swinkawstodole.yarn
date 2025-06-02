@@ -34,5 +34,6 @@ Nika: Może to po prostu czyjś zwierzaczek. Niektórzy ubierają swoje psy i w 
 <<fade_camera>>
 <<wait 2>>
 <<clear_bg BG>>
+<<wait 1>>
 <<defrost_player>>
 ===
