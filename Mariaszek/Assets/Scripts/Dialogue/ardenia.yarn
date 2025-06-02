@@ -16,7 +16,7 @@ Nika: *Szeptem* Jaka śliczna...
     <<ardenia1 NPCS>>
     Ardenia: Bądźcie cicho, bo ją spłoszycie.
     <<NPC_blank NPCS>>
-    <<wait  2>>
+    <<wait  1>>
 -> Mówisz o tej śwince, którą widzieliśmy w stodole? Tej z kwiatkami?
     <<PC_blank PCS>>
     <<ardenia1 NPCS>>
@@ -26,7 +26,7 @@ Nika: *Szeptem* Jaka śliczna...
     Ardenia: Raz nawet ją widziałam. Poszłam za nią, ale zniknęła, jak wyszłam z hotelu...
     Ardenia: Chyba chce mi coś powiedzieć...
     <<NPC_blank NPCS>>
-    <<wait  2>>>>
+    <<wait  1>>
 <<labuda1 PCS>>
 Labuda: To było... Dziwne.
 <<ehir1 PCS>>

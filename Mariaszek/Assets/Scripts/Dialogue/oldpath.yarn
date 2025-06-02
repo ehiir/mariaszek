@@ -79,7 +79,7 @@ Fran: Ani słowa, jasne?
 <<PC_blank PCS>>
 W milczeniu, wszyscy przytakują.
 <<fade_camera>>
-<<wait 2>>
+<<wait 1.5>>
 <<clear_bg BG>>
 <<defrost_player>>
 ===

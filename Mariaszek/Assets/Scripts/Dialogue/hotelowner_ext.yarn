@@ -6,13 +6,15 @@ Starsza pani w eleganckim ubraniu rozmawia zaaferowana przez telefon.
 <<ehir1 PCS>>
 Ehir: Wygląda jakby zarządzała tym miejscem. Pewnie wie gdzie jest mechanik.
 <<labuda2 PCS>>
-Labuda: Przepraszam najmocniej..
+Labuda: Przepraszam najmocniej...
 <<PC_blank PCS>>
 <<HotelOwner1 NPCS>>
 ???: Oh, wybaczcie. Witam serdecznie. Zaraz sprawdzimy państwa rezerwację. Proszę, zaprowadzę was do środka. 
 <<NPC_blank NPCS>>
 <<labuda2 PCS>>
-Labuda: Nie mamy rezerwacji, właściwie to my tu tak tylko przejazdem. Widzi pani, mamy taki problem, że nasze auto się zepsuło na trasie...
+Labuda: Nie mamy rezerwacji, właściwie to my tu tak tylko przejazdem. 
+<<labuda3 PCS>>
+Labuda: Widzi pani, mamy taki problem, że nasze auto się zepsuło na trasie...
 <<fran1 PCS>> 
 Fran: Szukamy mechanika. We wiosce powiedzieli nam, że możemy go tu znaleźć.
 <<PC_blank PCS>>
@@ -29,7 +31,6 @@ Ehir: Wiadomo, kiedy wróci?
 ???: Niestety nie.
 ???: Widzicie, nasz Antoni ma w zwyczaju wyjeżdzać na ryby, a taka wycieczka może trwać od dwóch do pięciu dni, w zależności, jak bardzo zmęczy go... Połów ryb.
 <<NPC_blank NPCS>>
-<<PC_blank PCS>>
 <<ehir1 PCS>>
 Ehir: Chyba rozumiemy. Co za pech.
 Ehir: Nie ma tu kogoś w okolicy, kto mógłby pomóc nam naprawić auto? To pewnie drobna naprawa, ale nie możemy jechać dalej, bo to niebezpieczne.
@@ -54,7 +55,7 @@ Fran: Rzeczywiście, ja tak samo. To internetu to tu nie ma na pewno.
 <<labuda1 PCS>>
 Labuda: Cholera, co teraz...
 <<fran1 PCS>>
-Fran: 
+Fran: ...
 <<ehir1 PCS>>
 Ehir: No nieźle. W dziurze na końcu świata, bez internetu i samochodu. 
 <<PC_blank PCS>>
@@ -65,7 +66,7 @@ Ehir: No nieźle. W dziurze na końcu świata, bez internetu i samochodu.
 ???: Podejrzewam, że nie macie się gdzie zatrzymać na noc... Chętnie użyczę wam pokoju w naszym hotelu. 
 <<NPC_blank NPCS>>
 <<labuda2 PCS>>
-Labuda: Bardzo miło z pani strony, ale chyba nie mamy pieniędzy...
+Labuda: Bardzo miło z Pani strony, ale chyba nie mamy pieniędzy...
 <<PC_blank PCS>>
 <<HotelOwner2 NPCS>>
 ???: Oh, nie, to na koszt firmy. Trzeba sobie pomagać w potrzebie. 
@@ -101,5 +102,8 @@ Labuda: Dobra, chodźcie no już do środka. Może się okaże że mechanik wró
 <<nika1 PCS>>
 Nika: Prawda, a w sumie to całkiem tu ładnie. Trochę chcę zobaczyć jak jest w środku. Może też wszędzie mają świnki?
 <<PC_blank PCS>>
+<<fade_camera>>
+<<wait  1.5>>
 <<defrost_player>>
+<<load_scene>>
 ===

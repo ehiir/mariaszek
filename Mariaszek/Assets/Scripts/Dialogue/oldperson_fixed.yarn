@@ -59,7 +59,7 @@ Samochód ledwo zajeżdza na parking, cały czas wydając z siebie niepokojące 
 Robaczki, czyli nasi bohaterzy wychodzą, podziwiając ukryty na końcu świata ośrodek wypoczynkowy. 
 Nie wiedzą jeszcze, że niekoniecznie czekają na nich rzeczy, które można nazwać wypoczynkiem...
 <<fade_camera>>
-<<wait 1>>
+<<wait  1.5>>
 <<defrost_player>>
 <<load_scene>>
 ===

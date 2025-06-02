@@ -32,8 +32,7 @@ Labuda: Nie sądzicie że to trochę dziwne? Jakby był jakimś rytualnym zwierz
 Nika: Może to po prostu czyjś zwierzaczek. Niektórzy ubierają swoje psy i w ogóle.
 <<PC_blank PCS>>
 <<fade_camera>>
-<<wait 2>>
+<<wait 1.5>>
 <<clear_bg BG>>
-<<wait 1>>
 <<defrost_player>>
 ===

@@ -2,7 +2,6 @@
 tags:
 ---
 <<freeze_player>>
-<<wait  3>>
 <<tarociara1 NPCS>>
 Starsza pani: Czego?
 <<NPC_blank NPCS>>
