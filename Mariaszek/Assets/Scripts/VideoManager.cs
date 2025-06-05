@@ -26,15 +26,16 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
         videoPlayer = GetComponent<VideoPlayer>();
+        videoPlayer.targetTexture.Release();
     }
-    
+
     public void PlayClip(int index)
     {
         if (videoClips.Count > 0 && index >= 0 && index < videoClips.Count)
         {
             currentClipIndex = index;
-            videoPlayer.clip = videoClips[index];  
-            videoPlayer.Play();  
+            videoPlayer.clip = videoClips[index];
+            videoPlayer.Play();
         }
         else
         {
@@ -44,13 +45,27 @@ public class VideoManager : MonoBehaviour
 
     public void NextClip()
     {
-        currentClipIndex = (currentClipIndex + 1) % videoClips.Count;  
-        PlayClip(currentClipIndex);  
+        currentClipIndex = (currentClipIndex + 1) % videoClips.Count;
+        PlayClip(currentClipIndex);
     }
 
     public void PreviousClip()
     {
-        currentClipIndex = (currentClipIndex - 1 + videoClips.Count) % videoClips.Count;  
-        PlayClip(currentClipIndex);  
+        currentClipIndex = (currentClipIndex - 1 + videoClips.Count) % videoClips.Count;
+        PlayClip(currentClipIndex);
+    }
+
+    public void StopAndClear()
+    {
+        if (videoPlayer.isPlaying) videoPlayer.Stop();
+
+        videoPlayer.clip = null;
+
+        if (videoPlayer.targetTexture != null) videoPlayer.targetTexture.Release();
+    }
+
+    void OnDestroy()
+    {
+        StopAndClear();
     }
 }

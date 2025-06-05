@@ -47,7 +47,7 @@ Nika: Oni to jeszcze nic, spójrzcie na właścicielkę...
 <<fade_camera>>
 <<wait  1.5>>
 <<image5 BG>>
-<<wait 7>>
+<<wait 8>>
 <<fade_camera>>
 <<wait 1.5>>
 <<clear_bg BG>>
