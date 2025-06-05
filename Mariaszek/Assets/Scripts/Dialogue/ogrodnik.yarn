@@ -11,47 +11,48 @@ Labuda: Przepraszam pana...
 <<PC_blank PCS>>
 Staruszek wygląda na podirytowanego.
 <<old2 NPCS>>
-Old person: Czego chcecie?
+Osoba Starsza: Czego chcecie?
 <<NPC_blank NPCS>>
--> Wie pan, gdzie możemy znaleźć mechanika?
-    <<PC_blank PCS>>
-    <<old1 NPCS>>
-    Old person: Ja nie wie. Idźcie na recepcję, to wam ino Teresa powie.
-    <<NPC_blank NPCS>>
-    <<labuda2 PCS>>
+    -> Wie pan, gdzie możemy znaleźć mechanika?
+        <<PC_blank PCS>>
+        <<old1 NPCS>>
+        Osoba Starsza: Ja nie wie. Idźcie na recepcję, to wam ino Teresa powie.
+        <<NPC_blank NPCS>>
 	-> Gdzie jest ta recepcja?
-    		<<PC_blank PCS>>
-    		<<old1 NPCS>>
-    		Old person: Tą ścieżką do dołu, wchodzi się od strony fontanny. Tej mniejszej fontanny.
-		    Old person: Powiedzcie no teresie, żeby mi tu przysłała Mareczka. Niech coś chłopak porobi.
-		    Ogrodnik mruczy pod nosem, zdenerwowany.
-		    <<ehir2 PCS>>
-		    Ehir: *Szeptem* Widać że wieś. Dopiero przyjechaliśmy i już dostajemy zadania.
-    		<<NPC_blank NPCS>>
--> Co pan robi?
-    <<PC_blank PCS>>
-    <<old2 NPCS>>
-    Old person: Krety zeżarły nam całe rabatki. Prawdziwa epidemia. Warzywa objadły, nie będzie czego w sezonie zebrać.
-    Old person: Ja tu jestem od ogrodu, to na mnie cała parszywa robota spadła. Kończę już prawie, ale ja żem tu musiał wszystko przesadzić.
+    	<<PC_blank PCS>>
+    	<<old1 NPCS>>
+    	Osoba Starsza: Tą ścieżką do dołu, wchodzi się od strony fontanny. Tej mniejszej fontanny.
+		Osoba Starsza: Powiedzcie no teresie, żeby mi tu przysłała Mareczka. Niech coś chłopak porobi.
+		Ogrodnik mruczy pod nosem, zdenerwowany.
+        <<NPC_blank NPCS>>
+		<<ehir2 PCS>>
+		Ehir: *Szeptem* Widać że wieś. Dopiero przyjechaliśmy i już dostajemy zadania.
+    	<<PC_blank NPCS>>
+    -> Co pan robi?
+        <<PC_blank PCS>>
+        <<old2 NPCS>>
+        Osoba Starsza: Krety zeżarły nam całe rabatki. Prawdziwa epidemia. Warzywa objadły, nie będzie czego w sezonie zebrać.
+        Osoba Starsza: Ja tu jestem od ogrodu, to na mnie cała parszywa robota spadła. Kończę już prawie, ale ja żem tu musiał wszystko przesadzić.
+        <<NPC_blank NPCS>>
 	-> Krety?
-    		<<PC_blank PCS>>
-    		<<old2 NPCS>>
-    		Old person: Takie wielkie, żem się aż przestraszył jak mi taki wyskoczył.
-		    Old person: Próbowaliżeśmy pułapek, trutek, a one nic. Tylko się wydaje że się mnożą jak szalone. 
-		    <<NPC_blank NPCS>>
-		    <<nika2 PCS>>
-		    Nika: Przykra sprawa... Ale ogródek bardzo ładny.
-		    <<PC_blank PCS>>	
--> Co pan tu robi? Widzieliśmy się jeszcze przed chwilą w Iceberku.
-    <<PC_blank PCS>>
-    <<old1 NPCS>>
-    Old person: Pewnie żeście widzieli mojego brata.
-    <<old2 NPCS>>
-    Old person: Siedzi tylko na ławce przy drodze i zagaduje przejezdnych. Do roboty by się wziął.
-    <<NPC_blank NPCS>>
-    <<ehir2 PCS>>
-    Ehir: Ulala, rodzinny konflikt.
-    <<PC_blank PCS>>
+    	<<PC_blank PCS>>
+    	<<old2 NPCS>>
+    	Osoba Starsza: Takie wielkie, żem się aż przestraszył jak mi taki wyskoczył.
+		Osoba Starsza: Próbowaliżeśmy pułapek, trutek, a one nic. Tylko się wydaje że się mnożą jak szalone. 
+		<<NPC_blank NPCS>>
+		<<nika2 PCS>>
+		Nika: Przykra sprawa... Ale ogródek bardzo ładny.
+		<<PC_blank PCS>>	
+    -> Co państwo tu robią? Widzieliśmy się jeszcze przed chwilą w Iceberku.
+        <<PC_blank PCS>>
+        <<old1 NPCS>>
+        Osoba Starsza: Pewnie żeście widzieli mojego brata.
+        <<old2 NPCS>>
+        Osoba Starsza: Siedzi tylko na ławce przy drodze i zagaduje przejezdnych. Do roboty by się wziął.
+        <<NPC_blank NPCS>>
+        <<ehir2 PCS>>
+        Ehir: Ulala, rodzinny konflikt.
+        <<PC_blank PCS>>
 <<labuda2 PCS>>
 Labuda: Dziękujemy...
 <<PC_blank PCS>>

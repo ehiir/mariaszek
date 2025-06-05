@@ -9,12 +9,14 @@ Ehir: O, tam coś się rusza.
 <<wait  1.5>>
 <<image4 BG>>
 <<wait  2>>
-<<ehir1 PCS>>
+<<ehir2 PCS>>
 Ehir: Jaki słodziak!
-Ehir: Mówiłam wam, że mają mini zoo.
+Ehir: Mówiłam wam, że mają mini zoo!
+<<PC_blank PCS>>
+Świnka: Chrum! Chrum! Oiiink!
 <<ehir2 PCS>>
 Ehir: Hej świnko, jaka jesteś śliczna!
-<<nika1 PCS>>
+<<nika2 PCS>>
 Nika: Jaki ma słodki wianeczek!
 <<labuda1 PCS>>
 Labuda: Trzeba bardzo lubić świnię, żeby jej wianki zaplatać... 
@@ -24,9 +26,9 @@ Ehir: Ale nam patrzy w oczy. Pewnie chce nam przekazać telepatycznie, żeby go 
 Świnka wydaje się zaciekawiona.
 <<ehir1 PCS>>
 Ehir: Odbijemy cię z tego więzienia, mały przyjacielu.
-<<fran1 PCS>> 
+<<fran2 PCS>> 
 Fran: Jak tylko naprawimy samochód, pakujemy go do bagażnika.
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Nie sądzicie że to trochę dziwne? Jakby był jakimś rytualnym zwierzakiem, że go tak stroją.
 <<nika1 PCS>>
 Nika: Może to po prostu czyjś zwierzaczek. Niektórzy ubierają swoje psy i w ogóle.

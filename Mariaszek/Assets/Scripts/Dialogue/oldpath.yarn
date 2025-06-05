@@ -6,24 +6,24 @@ tags:
 <<wait  1>>
 <<image1 BG>>
 <<wait 2>>
-<<nika2 PCS>>
+<<nika1 PCS>>
 Nika: Chyba się zgubiliśmy...
-<<ehir1 PCS>>
+<<ehir2 PCS>>
 Ehir: Zgubienie oznacza dodatkowe zwiedzanie!
-<<labuda1 PCS>>
+<<labuda2 PCS>>
 Labuda: Też widzicie ten samochód?
-<<nika2 PCS>>
+<<nika1 PCS>>
 Nika: Ciekawe czemu zostawili go na środku ścieżki...
 Nika: Niby nikt rozsądny by tu nie zaglądał, ale większość wraków stoi za płotem mechanika. Czemu ten jest inny?
-<<fran1 PCS>>
+<<fran2 PCS>>
 Fran: Zobaczymy, co jest w środku?
-<<nika2 PCS>>
+<<nika3 PCS>>
 Nika: Do środka? Nie przesadzasz?
 <<labuda1 PCS>>
 Labuda: Spokojnie, pewnie stoi tu luzem od lat. Z resztą, nie widać żywej duszy.
 <<labuda2 PCS>>
 Labuda: Kiedyś z Fran chodziliśmy po opuszczonych budynkach, można było znaleźć fajne rzeczy. Stare butelki, listy...
-<<ehir1 PCS>>
+<<ehir2 PCS>>
 Ehir: Nawiedzone itemy! Ale super!
 <<labuda1 PCS>>
 Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się w takie sprawy, jasne?
@@ -36,7 +36,7 @@ Labuda: O nie, niczego co wygląda na nawiedzone nie ruszamy. Nie pakujemy się 
 Labuda: No i proszę, otwarte.
 <<nika1 PCS>>
 Nika: Nie wygląda jakby coś tu było. Tylko śmierdzi stęchlizną.
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: U mnie też nic.
 <<fran1 PCS>>
 Fran: Trzeba sprawdzić schowki i pod fotelami. 
@@ -45,6 +45,8 @@ Fran: O proszę, tutaj coś mamy.
 <<PC_blank PCS>>
 Fran wyciąga ze schowka na miejscu pasażera zawinięty w chustkę pakunek.
 <<wait  1>>
+<<fade_camera>>
+<<wait  1.5>>
 <<image3 BG>>
 <<wait 2>>
 <<fran3 PCS>>
@@ -60,21 +62,20 @@ Labuda: Zmywajmy się stąd. Jak najszybciej.
 <<wait 2>>
 <<nika1 PCS>>
 Nika: Co tam było?
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Paszporty. Wszystkie ważne dokumenty, portfele... I stary telefon.
 <<nika3 PCS>>
 Nika: O cholera... Nikt nie zostawiłby takich rzeczy w samochodzie, chyba że...
-<<fran2 PCS>>
+<<fran3 PCS>>
 Fran: Chyba że coś się z nim stało.
-<<labuda1 PCS>> 
+<<labuda3 PCS>> 
 Labuda: Niczego nie widzieliśmy. Ani słowa nikomu dookoła, bo wpakujemy się w jeszcze większe kłopoty.
-<<ehir2 PCS>>
+<<ehir3 PCS>>
 Ehir: Mamy udawać, że nic się nie stało?
-<<labuda2 PCS>>
+<<labuda3 PCS>>
 Labuda: Nie wiemy, dlaczego ktoś zostawił tak ważne rzeczy. Jeśli stało się coś złego, a ten kto to zrobił dalej jest gdzieś tutaj...
-<<fran2 PCS>>
-Fran: Wyjeżdzajmy stąd jak najszybciej. I nie rozdzielajmy się, pod żadnym pozorem.
 <<fran1 PCS>>
+Fran: Wyjeżdzajmy stąd jak najszybciej. I nie rozdzielajmy się, pod żadnym pozorem.
 Fran: Ani słowa, jasne?
 <<PC_blank PCS>>
 W milczeniu, wszyscy przytakują.
