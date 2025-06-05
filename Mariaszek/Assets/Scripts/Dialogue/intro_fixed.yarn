@@ -1,24 +1,24 @@
-﻿title: Start_fixed
+title: Start_fixed
 tags:
 ---
 <<wait 5>>
 <<shake_camera>>
 <<wait 2>>
-<<bg2 BG>>
+<<bg1 BG>>
 <<turndown_music>>
-<<fran2 PCS>>
+<<fran1 PCS>>
 Fran: O cholera, co to było?
 <<ehir1 PCS>>
 Ehir: Zatrzęsło nami jak w mikserze. 
-<<nika1 PCS>>
+<<nika3 PCS>>
 Nika: Uderzyliśmy w coś?
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Nie wiem. Musimy zjechać na pobocze i sprawdzić, czy auto jest całe. 
 <<nika1 PCS>>
 Nika: Może zaraz będzie jakaś stacja benzynowa? Możemy spróbować się dotoczyć.
-<<fran1  PCS>>
+<<fran2  PCS>>
 Fran: Przydałoby się kupić jakąś wodę, jest z 40 stopni.
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Jesteśmy w polu na ekspresówce, więc średnio to widzę.
 <<nika2 PCS>>
 Nika: Niedaleko powinna być wioska, tak mi pokazują mapy!
@@ -34,7 +34,7 @@ Fran: No dobra, jedźmy...
 <<play_music>>
 <<next_video>>
 <<wait 1>>
-<<nika2 PCS>>
+<<nika1 PCS>>
 Nika: Wygląda jak koniec świata. Widzicie tu kogoś, kogo możemy spytać o pomoc?
 <<ehir2 PCS>>
 Ehir: HEEEJ!!! JEST TU KTO??? POTRZEBUJEMY MECHANIKA!!!
@@ -46,11 +46,11 @@ Ehir: Oh przepraszam, będę szeptać i liczyć na najlepsze. Rozejrzyj się, pe
 Labuda: I trzeba się drzeć na cały regulator? Nie możemy zapukać jak kulturalni ludzie?
 <<ehir2 PCS>>
 Ehir: Tak się robi na wsi. Krzyczysz na całą wioskę albo po prostu wchodzisz przez bramę.
-<<fran1 PCS>>
+<<fran2 PCS>>
 Fran: Ej, chyba kogoś tam widzę.
 <<PC_blank PCS>>
 <<wait 2>>
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Dzień dobry! Czy wiecie może państwo gdzie możemy w tym mieście znaleźć mechanika?
 <<PC_blank PCS>>
 <<old1 NPCS>>
@@ -67,6 +67,6 @@ Starsza osoba: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat.
 Starsza osoba: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
 <<NPC_blank NPCS>>
 <<fade_camera>>
-<<wait  1.5>>
+<<wait 2>>
 <<load_scene>>
 ===

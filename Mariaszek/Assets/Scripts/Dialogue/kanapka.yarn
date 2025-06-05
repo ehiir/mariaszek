@@ -2,68 +2,69 @@
 tags:
 ---
 <<bg5 BG>>
-<<fran1 PCS>>
+<<fran2 PCS>>
 Fran: Usiądźmy i ustalmy, co dalej
 Fran: Słyszeliście, co mówili ci wszyscy ludzie? 
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Weź przestań. Albo wszyscy są zdrowo szaleni, albo rzeczywiście trzeba stąd uciekać. 
 <<nika1 PCS>>
 Nika: Na wsi jest tak specyficznie. Mają jakichś znachorów i swoje ludowe legendy. 
 Nika: Czytałam ostatnio o mitologii, jaką tu kiedyś mieli. Wierzyli w południce, rusałki i takie rzeczy. Nie zdzwiłabym się, gdyby ta staruszka była przekonana, że agresywne krety to licho.
-<<ehir2 PCS>>
+<<ehir3 PCS>>
 Ehir: Licho?
 <<nika1 PCS>>
 Nika: W mitologii słowiańskiej wierzyli, że powodem wszystkich drobnych nieszczęść są małe, kudłate stworzonka, czyli licho. Mieszkały na polach i lasach.
 Nika: Pewnie tak się tu dzieciom opowiada...
 <<ehir1 PCS>>
 Ehir: To może nie mamy się co martwić. Poczekamy sobie tutaj do jutra i odjedziemy. Z resztą, jak tu jesteśmy w czwórkę, to raczej nic nam się nie stanie.
-<<labuda2 PCS>>
+<<labuda3 PCS>>
 Labuda: Nie chciałbym tylko skończyć jak ci od białego auta...
-<<fran2>>
+<<fran1 PCS>>
 Fran: Dlatego trzymamy się razem, pamiętacie? Żadnego rozdzielania.
-<<ehir1 PCS>>
-Ehir: Jasne szefie. A teraz wybaczcie, pora na obiad. Jestem tak głodny że zeżarłbym tą statuetkę świni. Boczuś...
+<<ehir2 PCS>>
+Ehir: Jasne szefie. A teraz wybaczcie, pora na obiad. Jestem tak głodny że zjadłbym tą statuetkę świni. Taki boczuś...
 <<nika1 PCS>> 
 Nika: Z czym to?
 <<ehir2 PCS>>
 Ehir: Z szyneczką i majonezem. Rodzinka nalegała, żeby wziąć coś domowego na drogę.
+<<ehir1 PCS>>
 Ehir: Myślałem, że się nie przyda, to krótka trasa, a tu proszę. Dziękuję, rodzice!
-<<labuda1 PCS>>
+<<labuda3 PCS>>
 Labuda: Jeszcze tylko do tego gotowane jajo...
 <<PC_blank PCS>>
+Narrator:Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
 <<fade_camera>>
-Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
-<<bg2 BG>>
-<<fade_camera>>
-<<wait 3>>
+<<wait  1.5>>
+<<image2 BG>>
+<<wait 2>>
 <<fran1 PCS>>
 Fran: Czy tylko mi się wydaje, czy tamta dwójka przy barze jakoś dziwnie na nas patrzy?
 Fran: Ehir, co żeś zrobiła?
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Ja? Nic! Tylko sobie jem kanapkę...
-<<labuda2 PCS>>
-Labuda: Wydaje mi się, że im się to nie podoba. 
+<<labuda3 PCS>>
+Labuda: Wydaje mi się, że im się to bardzo nie podoba. 
 <<nika1 PCS>>
 Nika: Oni to jeszcze nic, spójrzcie na właścicielkę...
 <<PC_blank PCS>>
-<<bg2 BG>>
+<<fade_camera>>
+<<wait  1.5>>
+<<image2 BG>>
 <<wait 2>>
-<<bg2 BG>>
-<<wait 1>>
-<<labuda2 PCS>>
+<<labuda3 PCS>>
 Labuda: Nie podoba mi się to.
-<<fran2 PCS>>
+<<fran1 PCS>>
 Fran: O co chodzi? Przecież nic nie zrobiliśmy. 
-<<labuda2 PCS>>
+<<labuda3 PCS>>
 Labuda: Chyba nawet nie chcę wiedzieć. Zejdźmy jej lepiej z oczu i uciekajmy do pokoju.
 Labuda: Ehir, schowaj tą kanapkę. 
-<<ehir2 PCS>>
+<<ehir3 PCS>>
 Ehir: Ale jestem głodna...
-<<labuda2 PCS>>
+<<labuda3 PCS>>
 Labuda: ...
-<<ehir2 PCS>>
+<<ehir3 PCS>>
 Ehir: Dokończę na górze.
-<<nika2 PCS>>
+<<nika3 PCS>>
 Nika: Aż mnie ciary przechodzą.
 <<wait 2>>
 <<fade_camera>>

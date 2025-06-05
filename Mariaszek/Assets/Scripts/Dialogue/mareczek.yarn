@@ -2,27 +2,23 @@
 tags:
 ---
 <<freeze_player>>
-Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
-<<nika2 PCS>>
+<<ehir1 PCS>>
+Ehir: Co on tam buduje?
+<<PC_blank PCS>>
 -> Co robisz?
-    <<PC_blank PCS>>
     <<mareczek1 NPCS>>
     Mareczek: Bzzz... Skkkkkk...
     <<NPC_blank NPCS>>
-    Mareczek entuzjastycznie przykręca śrubki do dziwnego urządzenia.
     <<nika2 PCS>>
-    Nika: ...
-    <<fran2 PCS>>
+    Nika: No i nic nie powiedział...
+    <<fran1 PCS>>
     Fran: Hej, mały, mówimy do ciebie.
     <<PC_blank PCS>>
     <<mareczek1 NPCS>>
-    //tutaj albo gra w karty albo nie
     Mareczek: O, dzień dobry!
     Mareczek: Buduję pułapkę na chochliki!
     <<NPC_blank NPCS>>
-    <<nika2 PCS>>
 	-> Jakie chochliki?
-		<<PC_blank PCS>>
 		<<mareczek1 NPCS>>
 		Mareczek: Te, co nam zjadają kwiatki.
 		<<NPC_blank NPCS>>
@@ -44,8 +40,7 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 		<<fran2 PCS>>
 		Fran: Chyba go nie przekonasz...
 		<<PC_blank PCS>>
--> To ty jesteś Mareczek? <<if $talkogrodnik > 0>>
-	<<PC_blank PCS>>
+-> To ty jesteś Mareczek?
 	<<mareczek1 NPCS>>
 	Mareczek: Skąd wiecie, jak się nazywam?
 	<<NPC_blank NPCS>>
@@ -58,5 +53,9 @@ Chłopiec majstruje coś przy dziwnym, pułapkopodobnym urządzeniu.
 	<<mareczek1 NPCS>>
 	Mareczek: Wiem! Pokażę wam chochlika którego złapałem!
 	<<NPC_blank NPCS>>
+	<<ehir3 PCS>> 
+	Ehir: Lepiej leć do roboty, mały... Trochę się boje tego orgodnika...
+	Ehir: Nawet bardziej niż tego ze wsi...
+	<<PC_blank PCS>>
 <<defrost_player>>
 ===

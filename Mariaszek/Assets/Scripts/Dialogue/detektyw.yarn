@@ -3,19 +3,18 @@ tags:
 ---
 <<freeze_player>>
 <<detektyw2 NPCS>>
-Mężczyzna w milczeniu czyta książkę.
+Bartold: ...
 <<NPC_blank NPCS>>
 <<ehir2 PCS>>
 Ehir: Ale super wygląda...
+<<ehir1 PCS>>
 Ehir: Może on będzie coś wiedzieć? Wygląda jakby znał się na rzeczy.
 Ehir: Przepraszam, możesz nam coś opowiedzieć o tym hotelu?
 <<PC_blank PCS>>
 <<detektyw1 NPCS>>
 Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
 <<NPC_blank NPCS>>
-<<ehir2 PCS>>
 -> Przejazdem? Masz samochód?
-    <<PC_blank PCS>>
     <<detektyw1 NPCS>>
     Bartold: Nie do końca. 
     Bartold: Zostałem tu wysłany, a moja drużyna odbiera mnie dopiero za parę dni.
@@ -32,7 +31,6 @@ Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
     Ehir: Dla nas byli bardzo sympatyczni... To ciekawe.
     <<PC_blank PCS>>
 -> Dlaczego wszędzie są świnki?
-    <<PC_blank PCS>>
 	<<detektyw1 NPCS>>
     Bartold: Dobre pytanie. Akurat badam tą sprawę.
     Bartold: Jestem antropologiem na badaniu w terenie. Ta wioska jest strasznie interesująca. 
@@ -44,7 +42,7 @@ Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
     <<NPC_blank NPCS>>
 <<ehir1 PCS>>
 Ehir: Dzięki!
-<<labuda1 PCS>>
+<<labuda2 PCS>>
 Labuda: Ehir, co się tak głupio szczerzysz?
 <<PC_blank PCS>>
 <<defrost_player>>

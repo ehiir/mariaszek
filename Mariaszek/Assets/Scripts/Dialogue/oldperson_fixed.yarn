@@ -11,9 +11,7 @@ Starsza osoba: Ale jak że pojedziecie tam do końca drogi, to już będzie wida
 <<old2 NPCS>>
 Starsza osoba: A teraz mi już nie zawracać głowy.
 <<NPC_blank NPCS>>
-<<fran1 PCS>>
 -> Czemu tu nikogo nie ma? Nie widać żywej duszy.
-    <<PC_blank PCS>>
     <<ehir1 PCS>>
     Ehir: Prawda, trochę strasznie...
     <<PC_blank PCS>>
@@ -21,7 +19,6 @@ Starsza osoba: A teraz mi już nie zawracać głowy.
     Starsza osoba: Dziecko, ludzie dobrzy są teraz na polu. Orzą ziemię, trzodę karmią. 
     <<NPC_blank NPCS>>
 -> Co to w ogóle za miejsce?
-    <<PC_blank PCS>>
     <<old1 NPCS>>
     Starsza osoba: Nasza wieś nazywa się Iceberk.
     Starsza osoba: Kiedyś się tu robiło mąkę na całą warmię, a teraz... Teraz się młodzi wyprowadzili. Nie ma komu robić.
@@ -35,29 +32,26 @@ Ehir: Dziękujemy Pani? Panu? Sama nie jestem pewna...
 <<wait  1.5>>
 <<next_video>>
 <<wait 3>>
-<<nika1 PCS>>
+<<nika2 PCS>>
 Nika: O ja cie, jak tu ładnie!
 Nika: Jak z filmów animowanych.
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Dosłownie. Tylko wziąć i zrobić o tym film. Albo grę. Fran, może na następny GameJam?
-<<fran1 PCS>>
+<<fran2 PCS>>
 Fran: Można. Taką przytulną do odstresowania.
-<<labuda1 PCS>>
+<<labuda2 PCS>>
 Labuda: Że też mają coś takiego na tym końcu świata.
 Labuda: Jakby tu sobie kiedyś zrobić wakacje, pikniczek w ogródku...
-<<labuda2 PCS>>
+<<labuda1 PCS>>
 Labuda: Wykończyłyby mnie pyłki, ale miejsce fajne.
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Myślicie że mają tu zwierzątka?
-<<nika2 PCS>>
+<<nika1 PCS>>
 Nika: W restauracji? Niby można, ale czemu by mieli?
-<<ehir2 PCS>>
+<<ehir1 PCS>>
 Ehir: Niektóre takie mają mini zoo.
 Ehir: Mam nadzieję... Chciałabym pogłaskać krówkę.
 <<PC_blank PCS>>
-Samochód ledwo zajeżdza na parking, cały czas wydając z siebie niepokojące odgłosy. 
-Robaczki, czyli nasi bohaterzy wychodzą, podziwiając ukryty na końcu świata ośrodek wypoczynkowy. 
-Nie wiedzą jeszcze, że niekoniecznie czekają na nich rzeczy, które można nazwać wypoczynkiem...
 <<fade_camera>>
 <<wait  1.5>>
 <<defrost_player>>
