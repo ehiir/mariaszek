@@ -13,6 +13,13 @@ Ehir: Na przykład: "Porzućcie nadzieję ci, którzy tu wchodzicie".
 Nika: Ja myślę że on śpi. I chrapie!
 <<labuda1 PCS>>
 Labuda: I tak nie możemy nim pojechać, bo jeszcze bardziej się zepsuje.
+<<fran2 PCS>>
+Fran: Powinniśmy pozwiedzać, zanim wejdziemy do środka.
+Fran: Tabliczka na wjeździe mówiła, że ten obiekt jest gigantyczny. I ma pełno sekretów.
+<<ehir1 PCS>>
+Ehir: Dziwna rzecz, żeby ją pisać na wjeździe.
+<<ehir2 PCS>>
+Ehir: Ale co z tego! Ahoj, przygodo!
 <<PC_blank PCS>>
 <<defrost_player>>
 ===
