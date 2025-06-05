@@ -20,7 +20,7 @@ Fran: Szukamy mechanika. We wiosce powiedzieli nam, że możemy go tu znaleźć.
 <<PC_blank PCS>>
 <<HotelOwner1 NPCS>>
 Właścicielka Hotelu: Oh, więc to tak. Przepraszam za pomyłkę. 
-<<HotelOwner1 NPCS>>
+<<HotelOwner2 NPCS>>
 Właścicielka Hotelu: Mechanik... Obawiam się, że chwilowo nie mogę wam pomóc.
 Właścicielka Hotelu: Nasz specjalista właśnie wyjechał na urlop.
 <<NPC_blank NPCS>>
@@ -69,7 +69,7 @@ Właścicielka Hotelu: Podejrzewam, że nie macie się gdzie zatrzymać na noc..
 Labuda: Bardzo miło z Pani strony, ale chyba nie mamy pieniędzy...
 <<PC_blank PCS>>
 <<HotelOwner2 NPCS>>
-???: Oh, nie, to na koszt firmy. Trzeba sobie pomagać w potrzebie. 
+Właścicielka Hotelu: Oh, nie, to na koszt firmy. Trzeba sobie pomagać w potrzebie. 
 <<NPC_blank NPCS>>
 <<labuda1 PCS>>
 Labuda: Na pewno? Nie chcemy robić kłopotu...

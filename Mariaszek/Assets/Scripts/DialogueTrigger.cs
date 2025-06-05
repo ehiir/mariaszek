@@ -248,10 +248,14 @@ public class DialogueTrigger : MonoBehaviour
             swinka = false;
         }
 
-        
         if (other.tag == "Ogrodnik")
         {
             ogrodnik = false;
+        }
+
+         if (other.tag == "Tarociara")
+        {
+            tarociara = false;
         }
     }
 }
