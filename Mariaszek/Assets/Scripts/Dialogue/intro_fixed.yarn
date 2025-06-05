@@ -4,7 +4,7 @@ tags:
 <<wait 5>>
 <<shake_camera>>
 <<wait 2>>
-<<bg1 BG>>
+<<bg2 BG>>
 <<turndown_music>>
 <<fran1 PCS>>
 Fran: O cholera, co to było?
