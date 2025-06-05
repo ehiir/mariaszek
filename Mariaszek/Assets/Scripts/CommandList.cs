@@ -46,6 +46,16 @@ public class CommandList : MonoBehaviour
         }
     }
 
+    public class HighVolume
+    {
+        [YarnCommand("turnup_music")]
+
+        public static void Volume() 
+        {
+            AudioManager.Instance.TurnUpMusic();
+        }
+    }
+
     public class PlayVideo
     {
         [YarnCommand("play_video")]

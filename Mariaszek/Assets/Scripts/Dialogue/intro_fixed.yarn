@@ -32,6 +32,7 @@ Fran: No dobra, jedźmy...
 <<fade_camera>>
 <<wait  1.5>>
 <<play_music>>
+<<turnup_music>>
 <<next_video>>
 <<wait 1>>
 <<nika1 PCS>>

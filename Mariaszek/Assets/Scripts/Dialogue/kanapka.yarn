@@ -1,7 +1,7 @@
 ﻿title: kanapka
 tags:
 ---
-<<bg5 BG>>
+<<freeze_player>>
 <<fran2 PCS>>
 Fran: Usiądźmy i ustalmy, co dalej
 Fran: Słyszeliście, co mówili ci wszyscy ludzie? 
@@ -32,10 +32,7 @@ Ehir: Myślałem, że się nie przyda, to krótka trasa, a tu proszę. Dziękuj�
 <<labuda3 PCS>>
 Labuda: Jeszcze tylko do tego gotowane jajo...
 <<PC_blank PCS>>
-Narrator:Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
-<<fade_camera>>
-<<wait  1.5>>
-<<image2 BG>>
+Narrator: Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
 <<wait 2>>
 <<fran1 PCS>>
 Fran: Czy tylko mi się wydaje, czy tamta dwójka przy barze jakoś dziwnie na nas patrzy?
@@ -49,8 +46,11 @@ Nika: Oni to jeszcze nic, spójrzcie na właścicielkę...
 <<PC_blank PCS>>
 <<fade_camera>>
 <<wait  1.5>>
-<<image2 BG>>
-<<wait 2>>
+<<image5 BG>>
+<<wait 7>>
+<<fade_camera>>
+<<wait 1.5>>
+<<clear_bg BG>>
 <<labuda3 PCS>>
 Labuda: Nie podoba mi się to.
 <<fran1 PCS>>
@@ -66,8 +66,56 @@ Labuda: ...
 Ehir: Dokończę na górze.
 <<nika3 PCS>>
 Nika: Aż mnie ciary przechodzą.
-<<wait 2>>
+<<PC_blank PCS>>
 <<fade_camera>>
 <<wait 2>>
+<<image6 BG>>
+<<wait 2>>
+Ehir: Wszyscy zasnęli. Musieli się zmęczyć tymi wrażeniami.
+Ehir: Ja też padam z nóg, ale muszę zrobić jeszcze jedną rzecz.
+<<image7 BG>>
+Ehir: Przetestować nową grę Fran! Zrobił świetną karciankę.
+Ehir: Pora rozbić kasyno!
+Ehir: Czy rozbić bank? Mówi się tak...? Nieważne!
+Ehir: ♫♪♫♪♫
+<<wait 2>>
+???: Tup tuptup tup tup...
+<<image8 BG>>
+Ehir: Huh?
+???: Oink! Oink!
+<<image9 BG>>
+Ehir: ...Świnka? Tutaj?
+Ehir: Uhh, wiem że mieliśmy się nie rozdzielać... Ale tylko szybko spojrzę i wracam do łóżka.
+<<fade_camera>>
+<<wait  3>>
+<<image10 BG>>
+<<wait 2>>
+Ehir: Ślady świnii?
+<<image10 BG>>
+???: Oink! Oink! Chrum!
+<<image11 BG>>
+Ehir: Brzmi, jakby chciała mnie gdzieś zaprowadzić...
+<<image12 BG>>
+Ehir: To o to ci chodzi, świnko? Mam iść za tobą?
+<<image13 BG>>
+???: Oink!
+Ehir: Brzmiało jak tak...
+<<fade_camera>>
+<<wait  3>>
+<<image14  BG>>
+Narrator: Następnego ranka.
+<<labuda2 PCS>>
+Labuda: Dzień dobry, myszeczki.
+Labuda: Zaspałem, że już wszyscy na nogach?
+<<nika3 PCS>>
+Nika: ...
+<<fran3 PCS>>
+Fran: ...
+<<labuda3 PCS>>
+Labuda: Hej... Gdzie jest Ehir?
+<<wait  1>>
+Narrator: Koniec rozdziału pierwszego.
+<<fade_camera>>
+<<wait 3>>
 <<load_scene>>
 ===

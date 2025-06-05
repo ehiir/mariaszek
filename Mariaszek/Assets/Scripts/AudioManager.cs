@@ -5,9 +5,9 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
-    private AudioSource audioSource;  
+    private AudioSource audioSource;
     public List<AudioClip> audioClips;
-    private int currentClipIndex = 0; 
+    private int currentClipIndex = 0;
 
     void Awake()
     {
@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
 
         if (audioClips.Count > 0)
         {
-            PlayClip(currentClipIndex);  
+            PlayClip(currentClipIndex);
         }
     }
 
@@ -37,8 +37,8 @@ public class AudioManager : MonoBehaviour
         if (audioClips.Count > 0 && index >= 0 && index < audioClips.Count)
         {
             currentClipIndex = index;
-            audioSource.clip = audioClips[index];  
-            audioSource.Play();  
+            audioSource.clip = audioClips[index];
+            audioSource.Play();
         }
         else
         {
@@ -48,37 +48,42 @@ public class AudioManager : MonoBehaviour
 
     public void NextClip()
     {
-        currentClipIndex = (currentClipIndex + 1) % audioClips.Count;  
-        PlayClip(currentClipIndex);  
+        currentClipIndex = (currentClipIndex + 1) % audioClips.Count;
+        PlayClip(currentClipIndex);
     }
 
     public void PreviousClip()
     {
-        currentClipIndex = (currentClipIndex - 1 + audioClips.Count) % audioClips.Count;  
-        PlayClip(currentClipIndex);  
+        currentClipIndex = (currentClipIndex - 1 + audioClips.Count) % audioClips.Count;
+        PlayClip(currentClipIndex);
     }
 
     public void StopMusic()
     {
-        audioSource.Stop(); 
+        audioSource.Stop();
     }
 
     public void PauseMusic()
     {
-        audioSource.Pause();  
+        audioSource.Pause();
     }
 
     public void ResumeMusic()
     {
         if (!audioSource.isPlaying)
         {
-            audioSource.UnPause();  
+            audioSource.UnPause();
         }
     }
 
     public void TurnDownMusic()
     {
         audioSource.volume = 0.5f;
+    }
+    
+    public void TurnUpMusic()
+    {
+        audioSource.volume = 1f;
     }
 }
 
