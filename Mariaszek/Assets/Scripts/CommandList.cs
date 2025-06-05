@@ -86,6 +86,16 @@ public class CommandList : MonoBehaviour
         }
     }
 
+    public class LoadSpecificScene
+    {
+        [YarnCommand("load_specific")]
+
+        public static void Specific()
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+
     public class FreezeTime
     {
         [YarnCommand("freeze_time")]

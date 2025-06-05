@@ -46,5 +46,5 @@ Fran: ...
 Labuda: Hej... Gdzie jest Ehir?
 <<fade_camera>>
 Narrator: Koniec rozdziału pierwszego.
-<<load_scene>>
+<<load_specific>>
 ===

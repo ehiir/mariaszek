@@ -68,7 +68,7 @@ Ehir: Dokończę na górze.
 Nika: Aż mnie ciary przechodzą.
 <<PC_blank PCS>>
 <<fade_camera>>
-<<wait 2>>
+<<wait  1.5>>
 <<image6 BG>>
 <<wait 2>>
 Ehir: Wszyscy zasnęli. Musieli się zmęczyć tymi wrażeniami.
@@ -87,7 +87,7 @@ Ehir: Huh?
 Ehir: ...Świnka? Tutaj?
 Ehir: Uhh, wiem że mieliśmy się nie rozdzielać... Ale tylko szybko spojrzę i wracam do łóżka.
 <<fade_camera>>
-<<wait  3>>
+<<wait  1.5>>
 <<image10 BG>>
 <<wait 2>>
 Ehir: Ślady świnii?
@@ -101,7 +101,7 @@ Ehir: To o to ci chodzi, świnko? Mam iść za tobą?
 ???: Oink!
 Ehir: Brzmiało jak tak...
 <<fade_camera>>
-<<wait  3>>
+<<wait  1.5>>
 <<image14  BG>>
 Narrator: Następnego ranka.
 <<labuda2 PCS>>
@@ -113,9 +113,10 @@ Nika: ...
 Fran: ...
 <<labuda3 PCS>>
 Labuda: Hej... Gdzie jest Ehir?
+<<PC_blank PCS>>
 <<wait  1>>
 Narrator: Koniec rozdziału pierwszego.
 <<fade_camera>>
 <<wait 3>>
-<<load_scene>>
+<<load_specific>>
 ===
