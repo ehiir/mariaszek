@@ -30,12 +30,6 @@ public class DialogueTrigger : MonoBehaviour
             dialogueRunner.StartDialogue("OldPerson");
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && dog == true)
-        {
-            Debug.Log("Gadasz z psem pojebie");
-            // dialogueRunner.StartDialogue("Dog");
-        }
-
         if (Input.GetKeyDown(KeyCode.E) && mareczek == true)
         {
            dialogueRunner.StartDialogue("Mareczek");
@@ -76,12 +70,12 @@ public class DialogueTrigger : MonoBehaviour
            dialogueRunner.StartDialogue("sign");
         }
 
-         if (Input.GetKeyDown(KeyCode.E) && oldpath == true)
+        if (Input.GetKeyDown(KeyCode.E) && oldpath == true)
         {
            dialogueRunner.StartDialogue("oldpath");
         }
 
-         if (Input.GetKeyDown(KeyCode.E) && podmechanikiem == true)
+        if (Input.GetKeyDown(KeyCode.E) && podmechanikiem == true)
         {
            dialogueRunner.StartDialogue("podmechanikiem");
         }
@@ -91,12 +85,12 @@ public class DialogueTrigger : MonoBehaviour
            dialogueRunner.StartDialogue("hotelowner_ext");
         }
 
-         if (Input.GetKeyDown(KeyCode.E) && swinka == true)
+        if (Input.GetKeyDown(KeyCode.E) && swinka == true)
         {
            dialogueRunner.StartDialogue("swinkawstodole");
         }
 
-         if (Input.GetKeyDown(KeyCode.E) && ogrodnik == true)
+        if (Input.GetKeyDown(KeyCode.E) && ogrodnik == true)
         {
            dialogueRunner.StartDialogue("Ogrodnik");
         }
@@ -109,11 +103,6 @@ public class DialogueTrigger : MonoBehaviour
             oldPerson = true;
         }
 
-        if (other.tag == "Dog")
-        {
-            dog = true;
-        }
-
         if (other.tag == "Mareczek")
         {
             mareczek = true;
@@ -124,42 +113,42 @@ public class DialogueTrigger : MonoBehaviour
             detektyw = true;
         }
 
-         if (other.tag == "Tarociara")
+        if (other.tag == "Tarociara")
         {
             tarociara = true;
         }
 
-         if (other.tag == "Ardenia")
+        if (other.tag == "Ardenia")
         {
             ardenia = true;
         }
 
-         if (other.tag == "Hotelowner2")
+        if (other.tag == "Hotelowner2")
         {
             hotelowner2 = true;
         }
         
-         if (other.tag == "Kanapka")
+        if (other.tag == "Kanapka")
         {
             kanapka = true;
         }
 
-          if (other.tag == "Car")
+        if (other.tag == "Car")
         {
             car = true;
         }
 
-          if (other.tag == "Sign")
+        if (other.tag == "Sign")
         {
             sign = true;
         }
 
-           if (other.tag == "Oldpath")
+        if (other.tag == "Oldpath")
         {
             oldpath = true;
         }
 
-          if (other.tag == "Podmechanikiem")
+        if (other.tag == "Podmechanikiem")
         {
             podmechanikiem = true;
         }
@@ -169,7 +158,6 @@ public class DialogueTrigger : MonoBehaviour
             hotelowner = true;
         }
 
-        
         if (other.tag == "Swinka")
         {
             swinka = true;
@@ -188,12 +176,7 @@ public class DialogueTrigger : MonoBehaviour
             oldPerson = false;
         }
 
-        if (other.tag == "Dog")
-        {
-            dog = false;
-        }
-
-          if (other.tag == "Mareczek")
+        if (other.tag == "Mareczek")
         {
             mareczek = false;
         }
@@ -203,22 +186,27 @@ public class DialogueTrigger : MonoBehaviour
             detektyw = false;
         }
 
-          if (other.tag == "Ardenia")
+        if (other.tag == "Tarociara")
+        {
+            tarociara = false;
+        }
+
+        if (other.tag == "Ardenia")
         {
             ardenia = false;
         }
 
-          if (other.tag == "Hotelowner2")
+        if (other.tag == "Hotelowner2")
         {
             hotelowner2 = false;
         }
 
-         if (other.tag == "Kanapka")
+        if (other.tag == "Kanapka")
         {
             kanapka = false;
         }
 
-          if (other.tag == "Car")
+        if (other.tag == "Car")
         {
             car = false;
         }
@@ -228,17 +216,17 @@ public class DialogueTrigger : MonoBehaviour
             sign = false;
         }
         
-           if (other.tag == "Oldpath")
+        if (other.tag == "Oldpath")
         {
             oldpath = false;
         }
 
-         if (other.tag == "Podmechanikiem")
+        if (other.tag == "Podmechanikiem")
         {
             podmechanikiem = false;
         }
 
-         if (other.tag == "Hotelowner")
+        if (other.tag == "Hotelowner")
         {
             hotelowner = false;
         }
@@ -251,11 +239,6 @@ public class DialogueTrigger : MonoBehaviour
         if (other.tag == "Ogrodnik")
         {
             ogrodnik = false;
-        }
-
-         if (other.tag == "Tarociara")
-        {
-            tarociara = false;
         }
     }
 }

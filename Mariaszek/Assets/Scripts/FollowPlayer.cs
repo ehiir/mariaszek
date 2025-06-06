@@ -7,35 +7,43 @@ public class FollowPlayer : MonoBehaviour
 {
     public Transform target;
     NavMeshAgent nav;
-    float npcSpeed;
 
-    // Animator npcAnimation;
+    Animator npcAnimation;
 
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
-        
-        // npcAnimation = gameObject.GetComponent<Animator>();
+        npcAnimation = GetComponent<Animator>();
     }
 
     void Update()
     {
         nav.SetDestination(target.position);
 
-        if (nav.velocity.magnitude > 1f)  
+        Vector3 directionToTarget = target.position - transform.position;
+        directionToTarget.y = 0f;
+        directionToTarget.Normalize();
+
+        float moveZ = Vector3.Dot(transform.forward, directionToTarget);
+        float moveX = Vector3.Dot(transform.right, directionToTarget);
+
+        float speed = nav.velocity.magnitude;
+
+        bool isMoving = speed > 1.5f;
+        npcAnimation.SetBool("IsWalking", isMoving);
+        npcAnimation.SetBool("IsIdle", !isMoving);
+
+        if (isMoving)
         {
-            Debug.Log("NPC is walking");
-
-            // npcAnimation.SetBool("IsWalking", true);  
-            // npcAnimation.SetBool("IsIdle", false);   
+            npcAnimation.SetFloat("MoveX", moveX);
+            npcAnimation.SetFloat("MoveZ", moveZ);
         }
-
         else
         {
-            Debug.Log("NPC is idle");
-
-            // npcAnimation.SetBool("IsWalking", false);  
-            // npcAnimation.SetBool("IsIdle", true);      
+            npcAnimation.SetFloat("MoveX", 0f);
+            npcAnimation.SetFloat("MoveZ", 0f);
         }
+
+        Debug.Log($"MoveX: {moveX}, MoveZ: {moveZ}, Velocity: {speed}");
     }
 }
