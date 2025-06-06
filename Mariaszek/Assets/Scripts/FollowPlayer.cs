@@ -43,7 +43,5 @@ public class FollowPlayer : MonoBehaviour
             npcAnimation.SetFloat("MoveX", 0f);
             npcAnimation.SetFloat("MoveZ", 0f);
         }
-
-        Debug.Log($"MoveX: {moveX}, MoveZ: {moveZ}, Velocity: {speed}");
     }
 }
