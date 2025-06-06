@@ -53,26 +53,22 @@ public class PlayerMovement : MonoBehaviour
 
         rb.drag = groundDrag;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && !isMovementFrozen)
         {
             playerAnimation.Play("Player_Back");
         }
-
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && !isMovementFrozen)
         {
              playerAnimation.Play("Player_Left");
         }
-
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) && !isMovementFrozen)
         {
             playerAnimation.Play("Player_Front");
         }
-
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) && !isMovementFrozen)
         {
              playerAnimation.Play("Player_Right");
         }
-
         else
         {
              playerAnimation.Play("Player_Idle");
