@@ -3,7 +3,7 @@ tags:
 ---
 <<freeze_player>>
 <<fade_camera>>
-<<wait  1>>
+<<wait  1.5>>
 <<image1 BG>>
 <<wait 2>>
 <<nika1 PCS>>
