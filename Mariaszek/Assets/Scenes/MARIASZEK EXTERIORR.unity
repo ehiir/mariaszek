@@ -18763,7 +18763,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 1.4
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
 --- !u!54 &647241881
@@ -27583,7 +27583,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 1.4
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
 --- !u!54 &879126199
@@ -31866,7 +31866,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 1
+  m_BaseOffset: 1.4
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &1016261059
