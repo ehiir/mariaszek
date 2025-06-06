@@ -31,7 +31,7 @@ Ehir: Dziękujemy Pani? Panu? Sama nie jestem pewna...
 <<fade_camera>>
 <<wait  1.5>>
 <<next_video>>
-<<wait 3>>
+<<wait 5>>
 <<nika2 PCS>>
 Nika: O ja cie, jak tu ładnie!
 Nika: Jak z filmów animowanych.
