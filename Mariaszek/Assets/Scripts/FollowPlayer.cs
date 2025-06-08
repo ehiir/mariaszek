@@ -29,7 +29,7 @@ public class FollowPlayer : MonoBehaviour
 
         float speed = nav.velocity.magnitude;
 
-        bool isMoving = speed > 1.5f;
+        bool isMoving = speed > 1.8f;
         npcAnimation.SetBool("IsWalking", isMoving);
         npcAnimation.SetBool("IsIdle", !isMoving);
 
