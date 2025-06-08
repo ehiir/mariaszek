@@ -68,6 +68,6 @@ Starsza osoba: Ale to dość, jak by to powiedzieć, ino całkiem trudny temat.
 Starsza osoba: Zatrzymajcie no to auto, nie będę do was krzyczeć. Wysiądźcie i porozmawiajmy.
 <<NPC_blank NPCS>>
 <<fade_camera>>
-<<wait 2>>
+<<wait 1.5>>
 <<load_scene>>
 ===
