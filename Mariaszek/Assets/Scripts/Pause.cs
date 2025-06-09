@@ -40,6 +40,8 @@ public class Pause : MonoBehaviour
         isPaused = true;
         canPause = false;
 
+        PlayerMovement.Instance.isMovementFrozen = true;
+
         // music.volume = 0.05f;
     }
 
@@ -49,6 +51,8 @@ public class Pause : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
         canPause = true;
+
+        PlayerMovement.Instance.isMovementFrozen = false;
 
         // music.volume = 0.1f;
     }
@@ -69,6 +73,8 @@ public class Pause : MonoBehaviour
         {
             yield return null;
         }
+
+        PlayerMovement.Instance.isMovementFrozen = false;
 
         SceneManager.LoadScene(sceneIndex);
     }

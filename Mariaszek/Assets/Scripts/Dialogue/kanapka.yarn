@@ -27,6 +27,7 @@ Ehir: Jasne szefie. A teraz wybaczcie, pora na obiad. Jestem tak głodny że zja
 <<fade_camera>>
 <<wait  1.5>>
 <<image5 BG>>
+<<wait 2>>
 <<nika1 PCS>> 
 Nika: Z czym to?
 <<ehir2 PCS>>
@@ -37,7 +38,10 @@ Ehir: Myślałem, że się nie przyda, to krótka trasa, a tu proszę. Dziękuj�
 Labuda: Jeszcze tylko do tego gotowane jajo...
 <<PC_blank PCS>>
 Narrator: Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
-<<wait 2>>
+<<fade_camera>>
+<<wait 1.5>>
+<<image6 BG>>
+<<wait 1>>
 <<fran1 PCS>>
 Fran: Czy tylko mi się wydaje, czy tamta dwójka przy barze jakoś dziwnie na nas patrzy?
 Fran: Ehir, co żeś zrobiła?
@@ -47,10 +51,16 @@ Ehir: Ja? Nic! Tylko sobie jem kanapkę...
 Labuda: Wydaje mi się, że im się to bardzo nie podoba. 
 <<nika1 PCS>>
 Nika: Oni to jeszcze nic, spójrzcie na właścicielkę...
+<<PC_blank PCS>>
+<<image7 BG>>
+<<wait 1>>
 <<labuda3 PCS>>
 Labuda: Nie podoba mi się to.
 <<fran1 PCS>>
 Fran: O co chodzi? Przecież nic nie zrobiliśmy. 
+<<PC_blank PCS>>
+<<image8 BG>>
+<<wait 1>>
 <<fade_camera>>
 <<wait 1.5>>
 <<clear_bg BG>>
@@ -68,29 +78,24 @@ Nika: Aż mnie ciary przechodzą.
 <<PC_blank PCS>>
 <<fade_camera>>
 <<wait  1.5>>
-<<image6 BG>>
-//ehir gra w karty glowa prosto gif
+<<image9 BG>>
 <<wait 2>>
 Ehir: Wszyscy zasnęli. Musieli się zmęczyć tymi wrażeniami.
 Ehir: Ja też padam z nóg, ale muszę zrobić jeszcze jedną rzecz.
-//image7 BG
 Ehir: Przetestować nową grę Fran! Zrobił świetną karciankę.
 Ehir: Pora rozbić kasyno!
 Ehir: Czy rozbić bank? Mówi się tak...? Nieważne!
 Ehir: ♫♪♫♪♫
 <<wait 2>>
-<<image8 BG>>
-//ehir sie obraca gif
+<<image10 BG>>
 ???: Tup tuptup tup tup...
 Ehir: Huh?
 ???: Oink! Oink!
-//image9 BG
 Ehir: ...Świnka? Tutaj?
 Ehir: Uhh, wiem że mieliśmy się nie rozdzielać... Ale tylko szybko spojrzę i wracam do łóżka.
 <<fade_camera>>
 <<wait  1.5>>
-<<image10 BG>>
-//korytarz gif
+<<image11 BG>>
 <<wait 2>>
 Ehir: Ślady świnii?
 ???: Oink! Oink! Chrum!
@@ -100,7 +105,7 @@ Ehir: To o to ci chodzi, świnko? Mam iść za tobą?
 Ehir: Brzmiało jak tak...
 <<fade_camera>>
 <<wait  1.5>>
-<<image14  BG>>
+<<image12  BG>>
 Narrator: Następnego ranka.
 <<labuda2 PCS>>
 Labuda: Dzień dobry, myszeczki.
