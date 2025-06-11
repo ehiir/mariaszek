@@ -14,32 +14,32 @@ Ehir: Przepraszam, możesz nam coś opowiedzieć o tym hotelu?
 <<detektyw1 NPCS>>
 Bartold: Jestem tu tylko przejazdem, ale mogę postarać się pomóc.
 <<NPC_blank NPCS>>
--> Przejazdem? Masz samochód?
-    <<detektyw1 NPCS>>
-    Bartold: Nie do końca. 
-    Bartold: Zostałem tu wysłany, a moja drużyna odbiera mnie dopiero za parę dni.
-    <<NPC_blank NPCS>>
-    <<ehir2 PCS>>
-    Ehir: Szkoda. Zepsuło nam się auto i utknęliśmy tu do czasu, aż nie wróci mechanik...
-    <<PC_blank PCS>>
-    <<detektyw2 NPCS>>
-    Bartold: Przykra sprawa.
-    Bartold: Nie powinno was to dotyczyć, ale na wszelki wypadek... Uważajcie na siebie. 
-    Bartold: Nie wydają się tu zbyt przyjaźnie nastawieni do obcych.
-    <<NPC_blank NPCS>>
-    <<ehir2 PCS>>
-    Ehir: Dla nas byli bardzo sympatyczni... To ciekawe.
-    <<PC_blank PCS>>
--> Dlaczego wszędzie są świnki?
-	<<detektyw1 NPCS>>
-    Bartold: Dobre pytanie. Akurat badam tą sprawę.
-    Bartold: Jestem antropologiem na badaniu w terenie. Ta wioska jest strasznie interesująca. 
-    Bartold: Świnki w rzeźbach, na dywanach, w stodole. Widzieliście tą z wiankiem na głowie?
-    Bartold: Naprawdę, fascynujące.
-    Bartold: Ale na razie nie mogę wam powiedzieć nic więcej niż to, że cała wieś wydaje się być skupiona wokół tej świnki, która ma na sobie wianek. 
-    Bartold: We wsi, w domach mają nawet jej malowane wizerunki oprawione w ramkę. Do tego stodoła położona jest idealnie na puncie zbiegu południka z równoleżnikiem, coś w rodzaju trójkąta bermudzkiego.
-    Bartold: Jeśli was to ciekawi, przyjdźcie do mnie za jakiś czas. Wtedy powinienem wiedzieć więcej.
-    <<NPC_blank NPCS>>
+    -> Przejazdem? Masz samochód?
+        <<detektyw1 NPCS>>
+        Bartold: Nie do końca. 
+        Bartold: Zostałem tu wysłany, a moja drużyna odbiera mnie dopiero za parę dni.
+        <<NPC_blank NPCS>>
+        <<ehir1 PCS>>
+        Ehir: Szkoda. Zepsuło nam się auto i utknęliśmy tu do czasu, aż nie wróci mechanik...
+        <<PC_blank PCS>>
+        <<detektyw2 NPCS>>
+        Bartold: Przykra sprawa.
+        Bartold: Nie powinno was to dotyczyć, ale na wszelki wypadek... Uważajcie na siebie. 
+        Bartold: Nie wydają się tu zbyt przyjaźnie nastawieni do obcych.
+        <<NPC_blank NPCS>>
+        <<ehir1 PCS>>
+        Ehir: Dla nas byli bardzo sympatyczni... To ciekawe.
+        <<PC_blank PCS>>
+    -> Dlaczego wszędzie są świnki?
+        <<detektyw1 NPCS>>
+        Bartold: Dobre pytanie. Akurat badam tą sprawę.
+        Bartold: Jestem antropologiem na badaniu w terenie. Ta wioska jest strasznie interesująca. 
+        Bartold: Świnki w rzeźbach, na dywanach, w stodole. Widzieliście tą z wiankiem na głowie?
+        Bartold: Naprawdę, fascynujące.
+        Bartold: Ale na razie nie mogę wam powiedzieć nic więcej niż to, że cała wieś wydaje się być skupiona wokół tej świnki, która ma na sobie wianek. 
+        Bartold: We wsi, w domach mają nawet jej malowane wizerunki oprawione w ramkę. Do tego stodoła położona jest idealnie na puncie zbiegu południka z równoleżnikiem, coś w rodzaju trójkąta bermudzkiego.
+        Bartold: Jeśli was to ciekawi, przyjdźcie do mnie za jakiś czas. Wtedy powinienem wiedzieć więcej.
+        <<NPC_blank NPCS>>
 <<ehir1 PCS>>
 Ehir: Dzięki!
 <<labuda2 PCS>>

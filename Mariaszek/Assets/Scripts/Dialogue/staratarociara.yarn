@@ -24,8 +24,8 @@ Ehir: Karty? Oczywiście że tak! Tak dawno nie grałem z nikim w karty!
 <<PC_blank PCS>>
 <<fade_camera>>
 <<wait  2>>
-Narrator:Ekipa rozgrywa parę rundek w karty.
-Narrator:W końcu wygrywają.
+Ekipa rozgrywa parę rundek w karty.
+W końcu wygrywają.
 <<tarociara1 NPCS>>
 Starsza pani: No, nie spodziewałam się, że tak dobrze wam pójdzie.
 Starsza pani: Co chcecie wiedzieć?
@@ -46,6 +46,7 @@ Starsza pani: Co chcecie wiedzieć?
         <<tarociara1 NPCS>>
         Starsza pani: Potężne siły, z którymi człowiek nie powinien zadzierać, ingerują w życie naszej wsi.
         Starsza pani: Miejcie się na baczności, żeby ich nie zdenerwować.
+    -> Kim pani jest?
 	    <<tarociara1 NPCS>>
         Starsza pani: Służyłam w tej wsi jako medium.
         <<tarociara2 NPCS>>
@@ -58,13 +59,13 @@ Starsza pani: Co chcecie wiedzieć?
         Starsza pani: Dlaczegoby nie.
         Starsza pani: Karty mówią... Czeka was wielkie niebezpieczeństwo. Szansa, której nie można przepuścić, na dokonanie czegoś ważnego. Zagubienie, a także przypływ gotówki.
         <<NPC_blank NPCS>>
-        <<ehir2 PCS>>
+        <<ehir3 PCS>>
         Ehir: Hmmm... Nie wiem czy to dobrze czy nie.
         <<nika1 PCS>>
         Nika: Pewnie ta gotówka to o targach fantastyki!
         <<labuda2 PCS>>
         Labuda: Ehir, nie przesadzasz? Czytałem ci tarota miesiąc temu. Wiesz że można co pół roku.
-        <<ehir1 PCS>>
+        <<ehir3 PCS>>
         Ehir: Masz rację, może dlatego ta wróżba taka dziwna.
         <<PC_blank PCS>>
 <<fran2 PCS>>

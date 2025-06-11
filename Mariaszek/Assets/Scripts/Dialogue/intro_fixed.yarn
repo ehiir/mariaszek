@@ -3,9 +3,9 @@ tags:
 ---
 <<wait 5>>
 <<shake_camera>>
+<<turndown_music>>
 <<wait 2>>
 <<bg2 BG>>
-<<turndown_music>>
 <<fran1 PCS>>
 Fran: O cholera, co to było?
 <<ehir1 PCS>>
@@ -17,7 +17,7 @@ Labuda: Nie wiem. Musimy zjechać na pobocze i sprawdzić, czy auto jest całe.
 <<nika1 PCS>>
 Nika: Może zaraz będzie jakaś stacja benzynowa? Możemy spróbować się dotoczyć.
 <<fran2  PCS>>
-Fran: Przydałoby się kupić jakąś wodę, jest z 40 stopni.
+Fran: Przydałoby się kupić jakąś wodę, jest z czterdzieści stopni.
 <<ehir1 PCS>>
 Ehir: Jesteśmy w polu na ekspresówce, więc średnio to widzę.
 <<nika2 PCS>>

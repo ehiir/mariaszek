@@ -3,7 +3,7 @@ tags:
 ---
 <<freeze_player>>
 <<fran2 PCS>>
-Fran: Usiądźmy i ustalmy, co dalej
+Fran: Usiądźmy i ustalmy, co dalej.
 Fran: Słyszeliście, co mówili ci wszyscy ludzie? 
 <<labuda3 PCS>>
 Labuda: Weź przestań. Albo wszyscy są zdrowo szaleni, albo rzeczywiście trzeba stąd uciekać. 
@@ -37,9 +37,12 @@ Ehir: Myślałem, że się nie przyda, to krótka trasa, a tu proszę. Dziękuj�
 <<labuda3 PCS>>
 Labuda: Jeszcze tylko do tego gotowane jajo...
 <<PC_blank PCS>>
-Narrator: Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
+Ehir wgryza się w kanapkę. Po pomieszczeniu rozchodzi się zapach wędliny.
 <<fade_camera>>
 <<wait 1.5>>
+<<turndown_music>>
+<<play_music>>
+<<turnup_music>>
 <<image6 BG>>
 <<wait 1>>
 <<fran1 PCS>>
@@ -60,7 +63,7 @@ Labuda: Nie podoba mi się to.
 Fran: O co chodzi? Przecież nic nie zrobiliśmy. 
 <<PC_blank PCS>>
 <<image8 BG>>
-<<wait 1>>
+<<wait 3>>
 <<fade_camera>>
 <<wait 1.5>>
 <<clear_bg BG>>
@@ -77,9 +80,12 @@ Ehir: Dokończę na górze.
 Nika: Aż mnie ciary przechodzą.
 <<PC_blank PCS>>
 <<fade_camera>>
+<<turndown_music>>
+<<play_music>>
+<<turnup_music>>
 <<wait  1.5>>
 <<image9 BG>>
-<<wait 2>>
+<<wait 4>>
 Ehir: Wszyscy zasnęli. Musieli się zmęczyć tymi wrażeniami.
 Ehir: Ja też padam z nóg, ale muszę zrobić jeszcze jedną rzecz.
 Ehir: Przetestować nową grę Fran! Zrobił świetną karciankę.
@@ -106,7 +112,7 @@ Ehir: Brzmiało jak tak...
 <<fade_camera>>
 <<wait  1.5>>
 <<image12  BG>>
-Narrator: Następnego ranka.
+Następnego ranka.
 <<labuda2 PCS>>
 Labuda: Dzień dobry, myszeczki.
 Labuda: Zaspałem, że już wszyscy na nogach?
@@ -118,7 +124,8 @@ Fran: ...
 Labuda: Hej... Gdzie jest Ehir?
 <<PC_blank PCS>>
 <<wait  1>>
-Narrator: Koniec rozdziału pierwszego.
+Koniec rozdziału pierwszego.
+<<wait 6>>
 <<fade_camera>>
 <<wait 3>>
 <<load_specific>>

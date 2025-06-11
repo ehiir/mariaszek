@@ -9,8 +9,8 @@ Ehir: Co on tam buduje?
     <<mareczek1 NPCS>>
     Mareczek: Bzzz... Skkkkkk...
     <<NPC_blank NPCS>>
-    <<nika2 PCS>>
-    Nika: No i nic nie powiedział...
+    <<nika1 PCS>>
+    Nika: To dużo się dowiedzieliśmy...
     <<fran1 PCS>>
     Fran: Hej, mały, mówimy do ciebie.
     <<PC_blank PCS>>

@@ -6,19 +6,16 @@ tags:
 Ardenia: Świnko... Świnko... Kicikicikici... 
 Ardenia: Gdzie jesteś maleńka? Pokaż się...
 <<NPC_blank NPCS>>
-<<nika1 PCS>>
+<<nika2 PCS>>
 Nika: *Szeptem* Jaka śliczna...
-<<fran2 PCS>>
+<<PC_blank PCS>>
 -> Co robisz?
-    <<PC_blank PCS>>
     <<ardenia2 NPCS>>
     Ardenia: Szukam świnki. 
     <<ardenia1 NPCS>>
     Ardenia: Bądźcie cicho, bo ją spłoszycie.
     <<NPC_blank NPCS>>
-    <<wait  1>>
 -> Mówisz o tej śwince, którą widzieliśmy w stodole? Tej z kwiatkami?
-    <<PC_blank PCS>>
     <<ardenia1 NPCS>>
     Ardenia: Nie. 
     Ardenia: O tej tutaj, w hotelu.
@@ -26,10 +23,9 @@ Nika: *Szeptem* Jaka śliczna...
     Ardenia: Raz nawet ją widziałam. Poszłam za nią, ale zniknęła, jak wyszłam z hotelu...
     Ardenia: Chyba chce mi coś powiedzieć...
     <<NPC_blank NPCS>>
-    <<wait  1>>
 <<labuda1 PCS>>
 Labuda: To było... Dziwne.
-<<ehir1 PCS>>
+<<ehir3 PCS>>
 Ehir: Dreszcze mnie przeszły.
 <<PC_blank PCS>>
 <<defrost_player>>

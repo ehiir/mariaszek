@@ -4,6 +4,9 @@ tags:
 <<freeze_player>>
 <<fade_camera>>
 <<wait  1.5>>
+<<turndown_music>>
+<<play_music>>
+<<turnup_music>>
 <<image1 BG>>
 <<wait 2>>
 <<nika1 PCS>>
@@ -80,6 +83,9 @@ Fran: Ani słowa, jasne?
 <<PC_blank PCS>>
 W milczeniu, wszyscy przytakują.
 <<fade_camera>>
+<<turndown_music>>
+<<play_music>>
+<<turnup_music>>
 <<wait 1.5>>
 <<clear_bg BG>>
 <<defrost_player>>
